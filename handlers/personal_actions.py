@@ -1,10 +1,9 @@
+import random
 import time
 
-from aiogram import types
-from aiogram.dispatcher.webhook import SendDocument
 from aiogram import Bot, Dispatcher, types
 from dispatcher import dp, log
-from config import API_TOKEN, NEWS_CHANNEL_ID
+from config import API_TOKEN, STOCKS_NEWS_CHANNEL_ID, REG_NEWS_CHANNEL_ID
 from stocks import get_general_news
 from tiktok import *
 from aiogram.types import InputFile
@@ -43,12 +42,30 @@ async def send_message(user_id: int, text: str, disable_notification: bool = Fal
     return False
 
 
-async def broadcaster(message, video):
+async def broadcaster(**kwargs):
+    for key, value in kwargs.items():
 
-    await bot.send_video(chat_id=CHANNEL_ID, video=video)
+        if key == 'tiktok_video':
+            await bot.send_video(chat_id=TIKTOK_CHANNEL_ID, video=value)
+            print('TikTok video post successful. Going to sleep now...')
+            time_sleep = random.randint(800, 1200)
+            time.sleep(time_sleep)
 
-    if await send_message(user_id=NEWS_CHANNEL_ID,
-                          text=message):
-        print('News post successful')
+        elif key == 'stocks_news_text':
+            if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=value):
+                print('Stock news post successful. Going to sleep now...')
+                time_sleep = random.randint(800, 1200)
+                time.sleep(time_sleep)
+
+        elif key == 'reg_news_text':
+            if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=value):
+                print('News post successful. Going to sleep now...')
+
+                time_sleep = random.randint(800, 1200)
+                time.sleep(time_sleep)
+        else:
+            print(f'Wrong name in the description of the variable passed {key}')
+
+
 
 

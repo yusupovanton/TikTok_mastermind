@@ -1,10 +1,8 @@
+import ast
+
 from TikTokAPI import TikTokAPI
 import random
 import os
-import telebot
-import time
-
-from config import API_TOKEN, CHANNEL_ID, MAINTENANCE_CH_ID, VIDS_FOLDER
 
 
 def getrandom_fromos(folder):
@@ -28,18 +26,37 @@ def are_vids_low(folder):
         return False
 
 
-def get_tiktok_vids(count, folder):
-
+def get_tiktok_vids(count, folder, register='tiktok_register.txt'):
+    downloaded_set = set()
     api = TikTokAPI()
     
     retval = api.getTrending(count=count)
-    i = 1
+
+    with open(register, 'r') as file:
+        if file.read():
+            register_set = ast.literal_eval(file.read())
+        else:
+            print('The register is empty.')
 
     for item in retval.get('items'):
 
-        save_path = folder + '/file_vid' + str(i) + '.mp4'
-        id = item.get('id')
+        id_ = item.get('id')
+        if register_set:
+            if id_ not in register_set:
+                save_path = folder + '/file_vid' + str(id_) + '.mp4'
+                api.downloadVideoById(id_, save_path)
+                downloaded_set.add(id_)
 
-        api.downloadVideoById(id, save_path)
-        i += 1
+            else:
+                print(f'This ID has already been shown! id: {id_}')
+        else:
+            save_path = folder + '/file_vid' + str(id_) + '.mp4'
+            api.downloadVideoById(id_, save_path)
+
+        new_register_set = register_set.Union(downloaded_set)
+
+        with open(register, 'w') as file:
+            file.write(new_register_set)
+
+
         
