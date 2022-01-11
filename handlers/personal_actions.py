@@ -3,7 +3,7 @@ import time
 
 from aiogram import Bot, Dispatcher, types
 from dispatcher import dp, log
-from config import API_TOKEN, STOCKS_NEWS_CHANNEL_ID, REG_NEWS_CHANNEL_ID
+from config import *
 from stocks import get_general_news
 from tiktok import *
 from aiogram.types import InputFile
