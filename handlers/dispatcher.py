@@ -4,6 +4,7 @@ from handlers.config import *
 from handlers.imports import *
 from handlers.filters import IsOwnerFilter
 
+
 """LOGGING"""
 
 
@@ -36,12 +37,14 @@ logger.addHandler(handler)
 
 ch = logging.StreamHandler()
 
+
 '''BOT'''
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot=bot)
 
 dp.filters_factory.bind(IsOwnerFilter)
+
 
 '''REDIS'''
 
@@ -52,3 +55,14 @@ r = redis.StrictRedis(
     decode_responses=True,
     password=REDIS_PASS
 )
+
+'''DASH'''
+
+app = dash.Dash()
+app.scripts.config.serve_locally = True
+app.config['suppress_callback_exceptions'] = True
+
+colors = {
+    'background': '#3B2B28',
+    'text': '#7FDBFF'
+}

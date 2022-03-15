@@ -16,3 +16,8 @@ import ast
 import random
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
+import dash
+from dash import html, dash_table, dcc
+from dash.dependencies import Output, Input
+from flask import Flask
+import plotly.express as px

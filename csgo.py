@@ -56,7 +56,7 @@ def create_card_list(soup):
             'price': price,
             'img': img,
             'link': link,
-            'float': flt,
+            'float': flt.strip(),
             'stickers': stickers}
 
         card_list.append(card_dictionary)
@@ -119,8 +119,10 @@ def db_to_df():
 
     df = pd.DataFrame(list_of_rows)
 
-    with pd.ExcelWriter('csgocards/register_total.xlsx') as writer:
-        df.to_excel(writer)
+    # with pd.ExcelWriter('csgocards/register_total.xlsx') as writer:
+    #     df.to_excel(writer)
+    df['float'] = df['float'].str.strip()
+
     return df
 
 
@@ -143,4 +145,9 @@ def cs_go_main_function(sleep_time=300):
 
 
 if __name__ == '__main__':
-    cs_go_main_function()
+    # cs_go_main_function()
+
+    dataframe = db_to_df()
+
+
+

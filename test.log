@@ -1,2 +1,933 @@
 2022-03-15 15:24:09,340 Parsed html!
 2022-03-15 15:24:09,357 Created card list. Number of cards is 50
+2022-03-15 17:43:36,189 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 17:45:24,437 Parsed html!
+2022-03-15 17:45:24,455 Created card list. Number of cards is 50
+2022-03-15 17:45:51,671 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 17:45:59,789 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 17:59:28,046 Parsed html!
+2022-03-15 17:59:28,063 Created card list. Number of cards is 50
+2022-03-15 18:01:36,497 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 18:03:36,402 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 18:03:36,404  * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+2022-03-15 18:03:38,690 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET / HTTP/1.1" 200 -
+2022-03-15 18:03:38,729 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/deps/react@16.v2_0_0m1647338568.14.0.min.js HTTP/1.1" 200 -
+2022-03-15 18:03:38,733 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/deps/react-dom@16.v2_0_0m1647338568.14.0.min.js HTTP/1.1" 200 -
+2022-03-15 18:03:38,734 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_0_0m1647338568.min.js HTTP/1.1" 200 -
+2022-03-15 18:03:38,739 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/deps/prop-types@15.v2_0_0m1647338568.7.2.min.js HTTP/1.1" 200 -
+2022-03-15 18:03:38,854 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-layout HTTP/1.1" 200 -
+2022-03-15 18:03:38,858 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-dependencies HTTP/1.1" 200 -
+2022-03-15 18:03:38,914 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2022-03-15 18:03:38,931 127.0.0.1 - - [15/Mar/2022 18:03:38] "GET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1" 200 -
+2022-03-15 18:03:51,540 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 18:03:51,541  * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+2022-03-15 18:03:56,843 127.0.0.1 - - [15/Mar/2022 18:03:56] "GET / HTTP/1.1" 200 -
+2022-03-15 18:03:56,901 127.0.0.1 - - [15/Mar/2022 18:03:56] "GET /_dash-layout HTTP/1.1" 200 -
+2022-03-15 18:03:56,904 127.0.0.1 - - [15/Mar/2022 18:03:56] "GET /_dash-dependencies HTTP/1.1" 200 -
+2022-03-15 18:03:56,918 127.0.0.1 - - [15/Mar/2022 18:03:56] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2022-03-15 18:03:56,940 127.0.0.1 - - [15/Mar/2022 18:03:56] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2022-03-15 18:04:01,460 127.0.0.1 - - [15/Mar/2022 18:04:01] "GET / HTTP/1.1" 200 -
+2022-03-15 18:04:01,513 127.0.0.1 - - [15/Mar/2022 18:04:01] "GET /_dash-layout HTTP/1.1" 200 -
+2022-03-15 18:04:01,514 127.0.0.1 - - [15/Mar/2022 18:04:01] "GET /_dash-dependencies HTTP/1.1" 200 -
+2022-03-15 18:04:01,529 127.0.0.1 - - [15/Mar/2022 18:04:01] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2022-03-15 18:04:01,543 127.0.0.1 - - [15/Mar/2022 18:04:01] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2022-03-15 18:04:35,695 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:35,710 127.0.0.1 - - [15/Mar/2022 18:04:35] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:36,689 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:36,690 127.0.0.1 - - [15/Mar/2022 18:04:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:37,720 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:37,722 127.0.0.1 - - [15/Mar/2022 18:04:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:38,560 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:38,563 127.0.0.1 - - [15/Mar/2022 18:04:38] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:39,402 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:39,403 127.0.0.1 - - [15/Mar/2022 18:04:39] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:39,745 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:39,746 127.0.0.1 - - [15/Mar/2022 18:04:39] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:40,247 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:40,248 127.0.0.1 - - [15/Mar/2022 18:04:40] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:40,619 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:40,620 127.0.0.1 - - [15/Mar/2022 18:04:40] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:41,798 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:41,800 127.0.0.1 - - [15/Mar/2022 18:04:41] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:42,651 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:42,652 127.0.0.1 - - [15/Mar/2022 18:04:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:43,687 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:43,688 127.0.0.1 - - [15/Mar/2022 18:04:43] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:44,180 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:44,181 127.0.0.1 - - [15/Mar/2022 18:04:44] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:45,395 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:45,396 127.0.0.1 - - [15/Mar/2022 18:04:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:46,228 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:46,230 127.0.0.1 - - [15/Mar/2022 18:04:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 18:04:47,315 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/dash_actions.py", line 16, in poll_result
+    return dict(data=[dict(x=[0], y=[int(df['price'])], type="bar")],
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/pandas/core/series.py", line 185, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'int'>
+2022-03-15 18:04:47,316 127.0.0.1 - - [15/Mar/2022 18:04:47] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:49,452 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:12:49,456  * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+2022-03-15 20:12:51,001 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:51,017 127.0.0.1 - - [15/Mar/2022 20:12:51] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:51,162 127.0.0.1 - - [15/Mar/2022 20:12:51] "GET / HTTP/1.1" 200 -
+2022-03-15 20:12:51,363 127.0.0.1 - - [15/Mar/2022 20:12:51] "GET /_dash-layout HTTP/1.1" 200 -
+2022-03-15 20:12:51,364 127.0.0.1 - - [15/Mar/2022 20:12:51] "GET /_dash-dependencies HTTP/1.1" 200 -
+2022-03-15 20:12:51,386 127.0.0.1 - - [15/Mar/2022 20:12:51] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2022-03-15 20:12:51,405 127.0.0.1 - - [15/Mar/2022 20:12:51] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2022-03-15 20:12:51,406 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:51,407 127.0.0.1 - - [15/Mar/2022 20:12:51] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:52,422 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:52,424 127.0.0.1 - - [15/Mar/2022 20:12:52] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:53,400 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:53,400 127.0.0.1 - - [15/Mar/2022 20:12:53] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:54,403 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:54,403 127.0.0.1 - - [15/Mar/2022 20:12:54] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:55,407 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:55,407 127.0.0.1 - - [15/Mar/2022 20:12:55] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:56,405 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:56,406 127.0.0.1 - - [15/Mar/2022 20:12:56] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:57,406 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:57,406 127.0.0.1 - - [15/Mar/2022 20:12:57] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:58,408 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:58,409 127.0.0.1 - - [15/Mar/2022 20:12:58] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:12:59,408 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:12:59,409 127.0.0.1 - - [15/Mar/2022 20:12:59] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:00,419 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:00,420 127.0.0.1 - - [15/Mar/2022 20:13:00] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:01,410 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:01,411 127.0.0.1 - - [15/Mar/2022 20:13:01] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:02,410 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:02,410 127.0.0.1 - - [15/Mar/2022 20:13:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:03,413 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:03,414 127.0.0.1 - - [15/Mar/2022 20:13:03] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:04,410 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:04,410 127.0.0.1 - - [15/Mar/2022 20:13:04] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:05,410 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:05,411 127.0.0.1 - - [15/Mar/2022 20:13:05] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:06,412 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:06,414 127.0.0.1 - - [15/Mar/2022 20:13:06] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:07,412 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:07,413 127.0.0.1 - - [15/Mar/2022 20:13:07] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:08,415 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:08,416 127.0.0.1 - - [15/Mar/2022 20:13:08] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:09,414 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:09,415 127.0.0.1 - - [15/Mar/2022 20:13:09] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:10,420 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:10,421 127.0.0.1 - - [15/Mar/2022 20:13:10] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:11,427 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:11,429 127.0.0.1 - - [15/Mar/2022 20:13:11] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:12,420 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:12,421 127.0.0.1 - - [15/Mar/2022 20:13:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:13,421 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:13,422 127.0.0.1 - - [15/Mar/2022 20:13:13] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:14,424 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:14,424 127.0.0.1 - - [15/Mar/2022 20:13:14] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:15,422 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:15,422 127.0.0.1 - - [15/Mar/2022 20:13:15] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:16,421 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:16,422 127.0.0.1 - - [15/Mar/2022 20:13:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:17,440 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:17,442 127.0.0.1 - - [15/Mar/2022 20:13:17] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:18,422 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:18,423 127.0.0.1 - - [15/Mar/2022 20:13:18] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:19,434 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:19,436 127.0.0.1 - - [15/Mar/2022 20:13:19] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:21,265 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:21,266 127.0.0.1 - - [15/Mar/2022 20:13:21] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:22,968 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:22,969 127.0.0.1 - - [15/Mar/2022 20:13:22] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:24,973 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:24,973 127.0.0.1 - - [15/Mar/2022 20:13:24] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:26,607 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:26,609 127.0.0.1 - - [15/Mar/2022 20:13:26] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:33,702 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:33,704 127.0.0.1 - - [15/Mar/2022 20:13:33] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:13:46,344 Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/dash.py", line 1336, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/dash/_callback.py", line 151, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+TypeError: poll_result() takes 0 positional arguments but 1 was given
+2022-03-15 20:13:46,346 127.0.0.1 - - [15/Mar/2022 20:13:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2022-03-15 20:18:12,368 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:19:30,096 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:20:56,349 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:25:45,666 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:28:03,714 Dash is running on http://127.0.0.1:8050/
+
