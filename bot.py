@@ -1,12 +1,13 @@
 from tiktok import *
 from stocks import *
 from news import *
+from csgo import *
 
 from aiogram import executor
-from dispatcher import dp
+from handlers.dispatcher import dp
 
 from handlers.personal_actions import broadcaster
-from config import VIDS_FOLDER
+from handlers.config import VIDS_FOLDER
 import bs4
 
 
@@ -66,17 +67,7 @@ def regular_news():
 
 def main():
 
-    video = tiktok()[0]
-    stock_news_ = stock_news()
-    regular_news_ = regular_news()
-
-    if video and stock_news_ and regular_news_:
-        executor.start(dp, broadcaster(tiktok_video=video, stocks_news_text=stock_news_, reg_news_text=regular_news_))
-        print('News post successful!')
-    else:
-        print(f'A variable is missing. video: {tiktok()[1]}, stock_news: {stock_news_}, regular_news: {regular_news_}')
-
-    filedelete(folder, tiktok()[1])
+    cs_go_main_function()
 
 
 if __name__ == '__main__':

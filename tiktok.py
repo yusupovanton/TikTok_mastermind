@@ -1,5 +1,5 @@
 import ast
-
+from handlers.config import *
 from TikTokAPI import TikTokAPI
 import random
 import os
@@ -34,6 +34,7 @@ def get_tiktok_vids(count, folder, register='tiktok_register.txt'):
 
     with open(register, 'r') as file:
         if file.read():
+            file.seek(0)
             register_set = ast.literal_eval(file.read())
         else:
             print('The register is empty.')
@@ -59,4 +60,6 @@ def get_tiktok_vids(count, folder, register='tiktok_register.txt'):
             file.write(new_register_set)
 
 
-        
+if __name__ == '__main__':
+
+    get_tiktok_vids(folder=VIDS_FOLDER, count=30)

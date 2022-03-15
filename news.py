@@ -1,5 +1,5 @@
 import time
-from config import TIKTOK_CHANNEL_ID, API_TOKEN, FILE_NAME, MAINTENANCE_CH_ID
+from handlers.config import FILE_NAME
 import requests
 from bs4 import BeautifulSoup
 import logging

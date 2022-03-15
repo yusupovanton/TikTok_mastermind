@@ -1,14 +1,8 @@
-import random
-import time
 
-from aiogram import Bot, Dispatcher, types
-from dispatcher import dp, log
-from config import *
-from stocks import get_general_news
+from handlers.dispatcher import *
+from handlers.config import *
 from tiktok import *
-from aiogram.types import InputFile
-from aiogram.utils import exceptions, executor
-import logging
+from aiogram.utils import exceptions
 import asyncio
 
 bot = Bot(token=API_TOKEN, parse_mode=types.ParseMode.HTML)
@@ -25,7 +19,7 @@ async def send_message(user_id: int, text: str, disable_notification: bool = Fal
     try:
         await bot.send_message(user_id, text, disable_notification=disable_notification)
     except exceptions.BotBlocked:
-        log.error(f"Target [ID:{user_id}]: blocked by user")
+        logger.error(f"Target [ID:{user_id}]: blocked by user")
     except exceptions.ChatNotFound:
         log.error(f"Target [ID:{user_id}]: invalid user ID")
     except exceptions.RetryAfter as e:
