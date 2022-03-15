@@ -65,11 +65,13 @@ def create_card_list(soup):
 
 
 def create_cards(cards_list):
+
     print(f"Going to process cards... Please wait...")
     for card in cards_list:
+        
         url = card['img']
 
-        logger.debug(f'Processing skin {card["name"]}')
+        logger.info(f'Processing skin {card["name"]}')
         response = requests.get(url)
         with Image.open(BytesIO(response.content)) as img:
             im = Image.new('RGB', (450, 250), (249, 248, 208))
