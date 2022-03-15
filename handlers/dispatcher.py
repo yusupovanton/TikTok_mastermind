@@ -22,8 +22,7 @@ class CsvFormatter(logging.Formatter):
 
 logging.basicConfig(filename=f'logs/run_info.csv',
                     filemode='a',
-                    level=logging.INFO,
-                    encoding='utf-16')
+                    level=logging.INFO)
 
 frmt = logging.Formatter('%(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
@@ -40,8 +39,9 @@ dp.filters_factory.bind(IsOwnerFilter)
 '''REDIS'''
 
 r = redis.StrictRedis(
-    host='127.0.0.1',
-    port=6379,
+    host=REDIS_HOST,
+    port=REDIS_PORT,
     charset="utf-8",
-    decode_responses=True
+    decode_responses=True,
+    password=REDIS_PASS
 )
