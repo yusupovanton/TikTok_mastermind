@@ -1,9 +1,6 @@
-import ast
 from handlers.config import *
-from TikTokAPI import TikTokAPI
-import random
-import os
-
+from handlers.imports import *
+from handlers.dispatcher import *
 
 def getrandom_fromos(folder):
     file_name = random.choice(os.listdir(folder))

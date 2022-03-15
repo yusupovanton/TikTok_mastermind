@@ -1,4 +1,3 @@
-from handlers.imports import *
 from handlers.dispatcher import *
 
 
@@ -66,9 +65,10 @@ def create_card_list(soup):
 
 
 def create_cards(cards_list):
+    print(f"Going to process cards... Please wait...")
     for card in cards_list:
         url = card['img']
-        print(f"Going to process cards... Please wait...")
+
         logger.debug(f'Processing skin {card["name"]}')
         response = requests.get(url)
         with Image.open(BytesIO(response.content)) as img:

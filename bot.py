@@ -3,13 +3,6 @@ from stocks import *
 from news import *
 from csgo import *
 
-from aiogram import executor
-from handlers.dispatcher import dp
-
-from handlers.personal_actions import broadcaster
-from handlers.config import VIDS_FOLDER
-import bs4
-
 
 def tiktok(folder=VIDS_FOLDER):
     if are_vids_low(folder):

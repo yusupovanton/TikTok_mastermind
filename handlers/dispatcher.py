@@ -1,6 +1,6 @@
 from handlers.config import *
-from handlers.filters import *
 from handlers.imports import *
+from handlers.filters import IsOwnerFilter
 
 """LOGGING"""
 
