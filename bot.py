@@ -2,7 +2,7 @@ from tiktok import *
 from stocks import *
 from news import *
 from csgo import *
-from dash_actions import dash_main_function
+
 
 def tiktok(folder=VIDS_FOLDER):
     if are_vids_low(folder):
@@ -60,7 +60,6 @@ def regular_news():
 
 def main():
 
-    dash_main_function()
     cs_go_main_function(sleep_time=300)
     
 
