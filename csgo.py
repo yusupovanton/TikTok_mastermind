@@ -66,7 +66,7 @@ def create_card_list(soup):
 
 def create_cards(cards_list):
 
-    print(f"Going to process cards... Please wait...")
+    print(f"Going to process values and create cards... Please wait...")
     for card in cards_list:
         
         url = card['img']
@@ -130,7 +130,7 @@ def db_to_df():
     return df
 
 
-def cs_go_main_function(sleep_time=300):
+def cs_go_main_function(sleep_time=300, to_create_cards=True):
 
     while True:
 
@@ -143,8 +143,11 @@ def cs_go_main_function(sleep_time=300):
         logger.info(f'Wrote to db!')
         db_to_df()
 
-        create_cards(cards_list=card_list)
+        if to_create_cards:
+            create_cards(cards_list=card_list)
+
         logger.info(f'Done! Size of DB: {len(r.keys())} Going to sleep now... zzz...')
+
         time.sleep(sleep_time)
 
 
