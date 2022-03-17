@@ -60,7 +60,7 @@ def regular_news():
 
 def main():
 
-    cs_go_main_function(sleep_time=300)
+    cs_go_main_function(sleep_time=300, to_create_cards=False)
     
 
 if __name__ == '__main__':
