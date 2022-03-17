@@ -931,3 +931,104 @@ TypeError: poll_result() takes 0 positional arguments but 1 was given
 
 2022-03-15 20:28:03,714 Dash is running on http://127.0.0.1:8050/
 
+2022-03-15 20:40:09,912 Parsed html!
+2022-03-15 20:40:09,938 Created card list. Number of cards is 50
+2022-03-15 20:40:37,857 Wrote to db!
+2022-03-15 20:40:41,074 Processing skin Glock-18 | Candy Apple
+2022-03-15 20:40:52,051 Processing skin Galil AR | Signal
+2022-03-15 20:41:01,082 Processing skin Five-SeveN | Boost Protocol
+2022-03-15 20:41:01,317 Processing skin MP9 | Goo
+2022-03-15 20:41:08,068 Processing skin P250 | Muertos
+2022-03-15 20:41:10,477 Processing skin AWP | Fever Dream
+2022-03-15 20:41:12,979 Processing skin P250 | Nevermore
+2022-03-15 20:41:15,893 Processing skin Glock-18 | Off World
+2022-03-15 20:41:17,660 Processing skin MP5-SD | Autumn Twilly
+2022-03-15 20:41:19,251 Processing skin Five-SeveN | Urban Hazard
+2022-03-15 20:41:21,673 Processing skin P250 | Franklin
+2022-03-15 20:41:25,975 Processing skin SG 553 | Tiger Moth
+2022-03-15 20:41:27,506 Processing skin Galil AR | Blue Titanium
+2022-03-15 20:41:28,714 Processing skin M4A1-S | Flashback
+2022-03-15 20:41:31,750 Processing skin SSG 08 | Parallax
+2022-03-15 20:41:36,767 Processing skin P250 | Inferno
+2022-03-15 20:41:39,553 Processing skin P250 | X-Ray
+2022-03-15 20:41:54,383 Processing skin MAC-10 | Lapis Gator
+2022-03-15 20:42:04,821 Processing skin CZ75-Auto | Yellow Jacket
+2022-03-15 20:42:19,811 Processing skin Desert Eagle | Bronze Deco
+2022-03-15 20:42:42,281 Processing skin SSG 08 | Fever Dream
+2022-03-15 20:42:44,404 Processing skin MAC-10 | Propaganda
+2022-03-15 20:42:46,515 Processing skin FAMAS | Survivor Z
+2022-03-15 20:42:54,581 Processing skin M4A1-S | Fizzy POP
+2022-03-15 20:43:00,456 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:43:01,929 Processing skin P250 | Ripple
+2022-03-15 20:43:02,180 Processing skin Glock-18 | Reactor
+2022-03-15 20:43:11,371 Processing skin AWP | Exoskeleton
+2022-03-15 20:43:23,747 Processing skin USP-S | Cyrex
+2022-03-15 20:43:27,739 Processing skin Desert Eagle | Directive
+2022-03-15 20:43:28,260 Processing skin Five-SeveN | Monkey Business
+2022-03-15 20:43:28,487 Processing skin Glock-18 | Catacombs
+2022-03-15 20:43:28,726 Processing skin R8 Revolver | Reboot
+2022-03-15 20:43:28,961 Processing skin M4A4 | X-Ray
+2022-03-15 20:43:29,208 Processing skin Desert Eagle | Night
+2022-03-15 20:43:41,312 Processing skin AK-47 | Blue Laminate
+2022-03-15 20:43:52,966 Processing skin MAC-10 | Disco Tech
+2022-03-15 20:44:01,277 Processing skin Glock-18 | Water Elemental
+2022-03-15 20:44:10,175 Processing skin FAMAS | ZX Spectron
+2022-03-15 20:44:16,982 Processing skin SSG 08 | Turbo Peek
+2022-03-15 20:44:30,084 Processing skin Desert Eagle | Night Heist
+2022-03-15 20:44:32,645 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:44:42,164 Processing skin MAC-10 | Disco Tech
+2022-03-15 20:44:43,294 Processing skin SCAR-20 | Grotto
+2022-03-15 20:44:44,146 Processing skin USP-S | Guardian
+2022-03-15 20:44:55,394 Processing skin SSG 08 | Abyss
+2022-03-15 20:44:58,770 Processing skin Galil AR | Rocket Pop
+2022-03-15 20:45:00,021 Processing skin AK-47 | Safari Mesh
+2022-03-15 20:45:16,490 Processing skin AWP | Pit Viper
+2022-03-15 20:45:26,831 Processing skin USP-S | Flashback
+2022-03-15 20:45:31,124 Processing skin Five-SeveN | Violent Daimyo
+2022-03-15 20:45:32,069 Processing skin USP-S | Cyrex
+2022-03-15 20:45:32,735 Done! Size of DB: 50 Going to sleep now... zzz...
+2022-03-15 20:46:55,264 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:50:33,585 Parsed html!
+2022-03-15 20:50:33,601 Created card list. Number of cards is 50
+2022-03-15 20:50:59,768 Wrote to db!
+2022-03-15 20:51:03,917 Processing skin P2000 | Imperial
+2022-03-15 20:51:04,119 Processing skin USP-S | Black Lotus
+2022-03-15 20:51:08,711 Processing skin P250 | X-Ray
+2022-03-15 20:51:08,960 Processing skin Tec-9 | Ice Cap
+2022-03-15 20:51:09,210 Processing skin Sawed-Off | Amber Fade
+2022-03-15 20:51:09,392 Processing skin USP-S | Torque
+2022-03-15 20:51:18,317 Processing skin AWP | Pit Viper
+2022-03-15 20:51:27,720 Processing skin CZ75-Auto | Crimson Web
+2022-03-15 20:51:32,289 Processing skin P250 | X-Ray
+2022-03-15 20:51:34,753 Processing skin Glock-18 | Candy Apple
+2022-03-15 20:51:52,609 Processing skin Galil AR | Signal
+2022-03-15 20:52:01,883 Processing skin Five-SeveN | Boost Protocol
+2022-03-15 20:52:02,132 Processing skin MP9 | Goo
+2022-03-15 20:52:09,482 Processing skin P250 | Muertos
+2022-03-15 20:52:11,913 Processing skin AWP | Fever Dream
+2022-03-15 20:52:14,854 Processing skin P250 | Nevermore
+2022-03-15 20:52:15,140 Processing skin Glock-18 | Off World
+2022-03-15 20:52:15,350 Processing skin MP5-SD | Autumn Twilly
+2022-03-15 20:52:15,603 Processing skin Five-SeveN | Urban Hazard
+2022-03-15 20:52:15,865 Processing skin P250 | Franklin
+2022-03-15 20:52:16,229 Processing skin SG 553 | Tiger Moth
+2022-03-15 20:52:16,478 Processing skin Galil AR | Blue Titanium
+2022-03-15 20:52:17,539 Processing skin M4A1-S | Flashback
+2022-03-15 20:52:17,798 Processing skin SSG 08 | Parallax
+2022-03-15 20:52:18,034 Processing skin P250 | Inferno
+2022-03-15 20:52:19,994 Processing skin P250 | X-Ray
+2022-03-15 20:52:30,757 Dash is running on http://127.0.0.1:8050/
+
+2022-03-15 20:52:39,436 Processing skin MAC-10 | Lapis Gator
+2022-03-15 20:52:50,783 Processing skin CZ75-Auto | Yellow Jacket
+2022-03-15 20:53:01,238 Processing skin Desert Eagle | Bronze Deco
+2022-03-15 20:53:18,496 Processing skin SSG 08 | Fever Dream
+2022-03-15 20:53:19,631 Processing skin MAC-10 | Propaganda
+2022-03-15 20:53:21,856 Processing skin FAMAS | Survivor Z
+2022-03-15 20:53:34,133 Processing skin M4A1-S | Fizzy POP
+2022-03-15 20:53:49,198 Processing skin P250 | Ripple
+2022-03-15 20:53:51,235 Processing skin Glock-18 | Reactor
+2022-03-15 20:54:16,821 Processing skin AWP | Exoskeleton

@@ -6,7 +6,7 @@ app = dash.Dash(server=server)
 
 df = db_to_df()
 
-fig = px.line(df[['id', 'price']], x="id", y="price")
+fig = px.scatter(df[['id', 'price']], x="id", y="price")
 
 
 app.layout = html.Div([

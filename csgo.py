@@ -122,7 +122,11 @@ def db_to_df():
     # with pd.ExcelWriter('csgocards/register_total.xlsx') as writer:
     #     df.to_excel(writer)
     df['float'] = df['float'].str.strip()
-
+    df['float'] = df['float'].astype(str).replace(' ', '')
+    df['float'] = df['float'].astype(float)
+    df['price'] = df['price'].str.replace(' ', '')
+    df['price'] = df['price'].astype(float)
+    df['id'] = df['id'].astype(int)
     return df
 
 
@@ -145,9 +149,8 @@ def cs_go_main_function(sleep_time=300):
 
 
 if __name__ == '__main__':
-    # cs_go_main_function()
+    cs_go_main_function()
 
-    dataframe = db_to_df()
 
 
 
