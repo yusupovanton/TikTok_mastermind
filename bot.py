@@ -1,7 +1,7 @@
-from tiktok import *
-from stocks import *
-from news import *
 from csgo import *
+from news import *
+from stocks import *
+from tiktok import *
 
 
 def tiktok(folder=VIDS_FOLDER):
@@ -60,7 +60,7 @@ def regular_news():
 
 def main():
 
-    cs_go_main_function(sleep_time=300, to_create_cards=False)
+    cs_go_main_function(sleep_time=60*30)
     
 
 if __name__ == '__main__':

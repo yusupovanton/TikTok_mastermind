@@ -132,23 +132,32 @@ def db_to_df():
 
 def cs_go_main_function(sleep_time=300, to_create_cards=True):
 
+    """Parses the lis-skins website and adds it to the DB"""
     while True:
 
-        filename = Parser().get_html()
-        cards = Parser().parse_html(file_name=filename)
-        logger.info(f'Parsed html!')
-        card_list = create_card_list(soup=cards)
-        logger.info(f'Created card list. Number of cards is {len(card_list)}')
-        write_to_db(list_of_dictionaries=card_list)
-        logger.info(f'Wrote to db!')
-        db_to_df()
+        try:
+            filename = Parser().get_html()
+            cards = Parser().parse_html(file_name=filename)
+            logger.info(f'Parsed html!')
 
-        if to_create_cards:
-            create_cards(cards_list=card_list)
+            card_list = create_card_list(soup=cards)
+            logger.info(f'Created card list. Number of cards is {len(card_list)}')
 
-        logger.info(f'Done! Size of DB: {len(r.keys())} Going to sleep now... zzz...')
-        print(f"Finish! Size of DB: {len(r.keys())}")
-        time.sleep(sleep_time)
+            write_to_db(list_of_dictionaries=card_list)
+            logger.info(f'Wrote to db!')
+
+            if to_create_cards:
+                create_cards(cards_list=card_list)
+
+            logger.info(f'Done! Size of DB: {len(r.keys())} Going to sleep now... zzz...')
+            print(f"Finish! Size of DB: {len(r.keys())}")
+
+        except Exception as ex:
+            logger.error(f'Error in cs_go script. {ex}')
+            print(f'Error in cs_go script. {ex}')
+
+        finally:
+            time.sleep(sleep_time)
 
 
 if __name__ == '__main__':

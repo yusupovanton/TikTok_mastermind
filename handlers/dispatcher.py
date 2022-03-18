@@ -56,13 +56,3 @@ r = redis.StrictRedis(
     password=REDIS_PASS
 )
 
-'''DASH'''
-
-app = dash.Dash()
-app.scripts.config.serve_locally = True
-app.config['suppress_callback_exceptions'] = True
-
-colors = {
-    'background': '#3B2B28',
-    'text': '#7FDBFF'
-}
