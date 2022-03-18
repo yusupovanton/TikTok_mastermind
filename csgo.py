@@ -22,9 +22,9 @@ class Parser:
             soup = BeautifulSoup(html, 'html.parser')
         self.results = list(soup.findAll('div', {'class': re.compile(r'item market_item_\d+')}))
         if self.results:
-            print('Match found!')
+            print('Skins found!')
         else:
-            print('No matches found!')
+            print('Error in getting the contents of website.')
         return self.results
 
 
@@ -147,7 +147,7 @@ def cs_go_main_function(sleep_time=300, to_create_cards=True):
             create_cards(cards_list=card_list)
 
         logger.info(f'Done! Size of DB: {len(r.keys())} Going to sleep now... zzz...')
-
+        print(f"Finish! Size of DB: {len(r.keys())}")
         time.sleep(sleep_time)
 
 
