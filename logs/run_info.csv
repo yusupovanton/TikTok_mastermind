@@ -1107,3 +1107,22 @@ INFO:dash_actions:Dash is running on http://127.0.0.1:8050/
 
 INFO:__main__:Dash is running on http://127.0.0.1:8050/
 
+INFO:root:Parsed html!
+INFO:root:Created card list. Number of cards is 50
+INFO:root:Wrote to db!
+INFO:root:Processing skin USP-S | Night Ops
+INFO:root:Processing skin AWP | Phobos
+INFO:root:Processing skin AUG | Radiation Hazard
+INFO:root:Processing skin UMP-45 | Corporal
+INFO:root:Processing skin P250 | Supernova
+INFO:root:Processing skin SG 553 | Desert Blossom
+INFO:root:Processing skin USP-S | Ticket to Hell
+INFO:root:Processing skin XM1014 | Oxide Blaze
+INFO:root:Processing skin M4A1-S | Flashback
+INFO:root:Processing skin AK-47 | Uncharted
+INFO:root:Processing skin P250 | X-Ray
+INFO:root:Processing skin UMP-45 | Oscillator
+INFO:root:Processing skin Glock-18 | Water Elemental
+INFO:root:Processing skin USP-S | Torque
+INFO:root:Processing skin M4A1-S | Fizzy POP
+INFO:root:Processing skin Glock-18 | Red Tire

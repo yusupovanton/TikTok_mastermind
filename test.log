@@ -1098,3 +1098,22 @@ TypeError: poll_result() takes 0 positional arguments but 1 was given
 
 2022-03-18 20:00:04,329 Dash is running on http://127.0.0.1:8050/
 
+2022-03-22 21:09:37,709 Parsed html!
+2022-03-22 21:09:37,728 Created card list. Number of cards is 50
+2022-03-22 21:09:54,723 Wrote to db!
+2022-03-22 21:09:54,724 Processing skin USP-S | Night Ops
+2022-03-22 21:09:54,829 Processing skin AWP | Phobos
+2022-03-22 21:10:01,794 Processing skin AUG | Radiation Hazard
+2022-03-22 21:10:03,336 Processing skin UMP-45 | Corporal
+2022-03-22 21:10:06,361 Processing skin P250 | Supernova
+2022-03-22 21:10:09,985 Processing skin SG 553 | Desert Blossom
+2022-03-22 21:10:15,921 Processing skin USP-S | Ticket to Hell
+2022-03-22 21:10:17,843 Processing skin XM1014 | Oxide Blaze
+2022-03-22 21:10:23,575 Processing skin M4A1-S | Flashback
+2022-03-22 21:10:28,601 Processing skin AK-47 | Uncharted
+2022-03-22 21:10:50,688 Processing skin P250 | X-Ray
+2022-03-22 21:10:52,080 Processing skin UMP-45 | Oscillator
+2022-03-22 21:10:54,833 Processing skin Glock-18 | Water Elemental
+2022-03-22 21:11:03,708 Processing skin USP-S | Torque
+2022-03-22 21:11:05,786 Processing skin M4A1-S | Fizzy POP
+2022-03-22 21:11:09,093 Processing skin Glock-18 | Red Tire
