@@ -33822,3 +33822,23 @@ aiogram.utils.exceptions.MessageTextIsEmpty: Message text is empty
 2022-03-23 23:45:22,921 Updates were skipped successfully.
 2022-03-23 23:45:22,925 Start polling.
 2022-03-23 23:45:23,117 Target [ID:-1001585932067]: success
+2022-03-23 23:46:33,648 Stop polling...
+2022-03-23 23:46:33,650 Goodbye!
+2022-03-23 23:46:33,694 Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:61> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 65, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 49, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+2022-03-24 00:00:57,349 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-03-24 00:00:58,026 Goodbye!
