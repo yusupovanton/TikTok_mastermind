@@ -1,0 +1,198 @@
+{'id': 7066607, 'hashtag': 'top news', 'text': "Mark Zuckerberg: Most future jobs will be more 'creative' than 'traditional labor or service'", 'img_url': 'https://image.cnbcfm.com/api/v1/image/106974634-1636697841288-gettyimages-1236189849-FACEBOOK_CONNECT.jpeg?v=1636699654&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/mark-zuckerberg-technology-will-make-future-jobs-more-creative.html'} 
+ 
+{'id': 7066620, 'hashtag': 'top news', 'text': 'TikTok Fund Glitch Prevents Rising Stars From Getting Paid', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/tiktok-fund-glitch-prevents-rising-stars-from-getting-paid'} 
+ 
+{'id': 7066597, 'hashtag': 'top news', 'text': "Walmart sues BJ's Wholesale claiming it stole self-checkout technology", 'img_url': 'https://image.cnbcfm.com/api/v1/image/106908931-1625848256903-gettyimages-904500100-98995328.jpeg?v=1625848289&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/walmart-sues-bjs-wholesale-claiming-theft-of-sams-club-self-checkout-tech.html'} 
+ 
+{'id': 7066598, 'hashtag': 'top news', 'text': "'The evolution of business casual': Here's what to wear if you're returning to the office", 'img_url': 'https://image.cnbcfm.com/api/v1/image/107035466-1648060582282-gettyimages-1132736357-dsc01193.jpeg?v=1648060949&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/heres-what-to-wear-if-youre-returning-to-the-office.html'} 
+ 
+{'id': 7066583, 'hashtag': 'top news', 'text': "Omicron BA.2 subvariant will soon dominate in U.S., but Fauci doesn't expect another surge", 'img_url': 'https://image.cnbcfm.com/api/v1/image/106983115-16383877602021-12-01t193001z_882947809_rc2u5r9arz6z_rtrmadp_0_usa-biden-fauci.jpeg?v=1638387848&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/covid-omicron-bapoint2-subvariant-will-soon-dominate-in-us-but-fauci-doesnt-expect-another-surge.html'} 
+ 
+{'id': 7066608, 'hashtag': 'top news', 'text': 'Measuring Racial and Gender Pay Equity', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/measuring-racial-and-gender-pay-equity-video'} 
+ 
+{'id': 7066599, 'hashtag': 'top news', 'text': "Live Updates: US Considers Freezing Russia's Gold Reserves", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/live-updates-governor-russians-destroyed-chernihiv-bridge'} 
+ 
+{'id': 7066609, 'hashtag': 'top news', 'text': 'Madeleine Albright Dies, First Female Secretary of State Was 84', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/madeleine-albright-first-female-secretary-of-state-dies-at-84'} 
+ 
+{'id': 7066600, 'hashtag': 'top news', 'text': 'Why Retail Traders Are Selling After Enduring Downturn', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/why-retail-traders-are-selling-after-enduring-downturn-video'} 
+ 
+{'id': 7066601, 'hashtag': 'top news', 'text': 'What Women Want in the Workplace', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/what-women-want-in-the-workplace-video'} 
+ 
+{'id': 7066602, 'hashtag': 'top news', 'text': 'Looking at Athletes as Data', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/looking-at-athletes-as-data-video'} 
+ 
+{'id': 7066603, 'hashtag': 'top news', 'text': 'BA.2 Gains Ground in US as Funding Runs Dry', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/ba-2-gains-ground-in-us-as-funding-runs-dry-video'} 
+ 
+{'id': 7066584, 'hashtag': 'top news', 'text': "Cresco Labs' Plan To Be Largest US Pot Company", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/cresco-labs-plan-to-be-largest-us-pot-company-video'} 
+ 
+{'id': 7066585, 'hashtag': 'top news', 'text': 'Day Traders Are Cashing Out Despite Market Rebound', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/day-traders-are-cashing-out-despite-market-rebound-video'} 
+ 
+{'id': 7066604, 'hashtag': 'top news', 'text': 'Renault Considers Curbing Russia Operations Over Ukraine', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/renault-is-said-to-mull-curbing-russia-operations-over-ukraine'} 
+ 
+{'id': 7066586, 'hashtag': 'top news', 'text': 'Fauci Warns of Covid Risks, Women & The Workplace', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/fauci-warns-of-covid-risks-women-the-workplace'} 
+ 
+{'id': 7066587, 'hashtag': 'top news', 'text': 'Euro Stocks Drop, Oil Resumes Climb, Biden in Europe (Podcast)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/euro-stocks-drop-oil-resumes-climb-biden-in-europe-podcast'} 
+ 
+{'id': 7066606, 'hashtag': 'top news', 'text': ': McDonald’s McPlant sandwich, created with Beyond Meat, is ‘underperforming’ franchisee sales expectations, analysts say', 'img_url': 'https://images.mktw.net/im-419532/social', 'url': 'https://www.marketwatch.com/story/mcdonalds-mcplant-sandwich-created-with-beyond-meat-is-underperforming-franchisee-sales-expectations-analysts-say-11648064190'} 
+ 
+{'id': 7066588, 'hashtag': 'top news', 'text': 'Star Chef Jos Andrs Is Sending Ibrico Ham Into Space', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/chef-jose-andres-is-sending-iberico-ham-to-international-space-station'} 
+ 
+{'id': 7066571, 'hashtag': 'top news', 'text': "Investing Club: What we're watching Wednesday afternoon — including Big Tech and Nucor's new high", 'img_url': 'https://image.cnbcfm.com/api/v1/image/106342990-1579296633007preview-2.jpg?v=1579296741&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/investing-club-what-were-watching-wednesday-afternoon-including-big-tech-and-nucors-new-high-.html'} 
+ 
+{'id': 7066564, 'hashtag': 'top news', 'text': "Insana: The Fed isn’t the sole cause of today’s inflation. Here's what policy hawks are getting wrong", 'img_url': 'https://image.cnbcfm.com/api/v1/image/107023845-1646240897074-107023845-1646237517654-gettyimages-1376273025-wm_10287_e2a1302a-86c3-44d0-8b59-1c3f9a1df1a8.jpg?v=1648058175&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/insana-the-fed-isnt-the-sole-cause-of-todays-inflation.html'} 
+ 
+{'id': 7066589, 'hashtag': 'top news', 'text': 'Balance of Power: How Can The Fed Reduce Inflation? (Radio)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/balance-of-power-how-can-the-fed-reduce-inflation-radio'} 
+ 
+{'id': 7066590, 'hashtag': 'top news', 'text': 'Balance of Power: Energy Prices Amid Ukraine War', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/balance-of-power-energy-prices-amid-ukraine-war'} 
+ 
+{'id': 7066591, 'hashtag': 'top news', 'text': 'Canada Union Leader Accused of Taking Payment for Promoting Covid Test Kits', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/canada-union-leader-accused-of-taking-payment-for-covid-tests'} 
+ 
+{'id': 7066592, 'hashtag': 'top news', 'text': "Here's How Hollywood Is Helping Ukraine During Oscars Week", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/with-oscars-near-hollywood-stars-turn-the-spotlight-on-ukraine'} 
+ 
+{'id': 7066582, 'hashtag': 'top news', 'text': 'Living With Climate Change: It’s very rare for a tornado to hit New Orleans — is climate change to blame?', 'img_url': 'https://images.mktw.net/im-510627/social', 'url': 'https://www.marketwatch.com/story/its-very-rare-for-a-tornado-to-hit-new-orleans-is-climate-change-to-blame-11648061889'} 
+ 
+{'id': 7066551, 'hashtag': 'top news', 'text': 'Up to 40,000 Russian soldiers killed, wounded, captured or MIA in Ukraine, NATO estimates', 'img_url': 'https://image.cnbcfm.com/api/v1/image/107035197-1648040336144-gettyimages-1239435708-AA_23032022_662043.jpeg?v=1648040371&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/up-to-40000-russian-soldiers-killed-wounded-captured-or-mia-nato-says.html'} 
+ 
+{'id': 7066565, 'hashtag': 'top news', 'text': "Serena Williams Says Fund Backs 'Overlooked' Founders", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-21/serena-williams-says-venture-fund-to-back-overlooked-founders'} 
+ 
+{'id': 7066566, 'hashtag': 'top news', 'text': 'A Survey of Oil and Gas Executives Gave One Overwhelming Reason for Limited U.S. Production', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/a-survey-of-oil-and-gas-executives-gave-one-overwhelming-reason-for-limited-u-s-production'} 
+ 
+{'id': 7066567, 'hashtag': 'top news', 'text': 'MLB Rule Changes, Barty Retires, World Cup Sponsor (Podcast)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/mlb-rule-changes-barty-retires-world-cup-sponsor-podcast'} 
+ 
+{'id': 7066579, 'hashtag': 'top news', 'text': 'Project Syndicate: Europe has a moral obligation to boycott Russian energy', 'img_url': 'https://images.mktw.net/im-510620/social', 'url': 'https://www.marketwatch.com/story/europe-has-a-moral-obligation-to-boycott-russian-energy-11648061397'} 
+ 
+{'id': 7066553, 'hashtag': 'business', 'text': 'Broadway tickets are more expensive now than before the pandemic – and attendance is strong', 'img_url': 'https://image.cnbcfm.com/api/v1/image/106942786-1631792855818-gettyimages-1340649059-vcg111348405348.jpeg?v=1648046875&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/broadway-tickets-more-expensive-as-pandemic-eases.html'} 
+ 
+{'id': 7066568, 'hashtag': 'top news', 'text': ': Lawsuit alleges Wells Fargo discriminated in mortgage refi business', 'img_url': 'https://images.mktw.net/im-510615/social', 'url': 'https://www.marketwatch.com/story/lawsuit-alleges-wells-fargo-discriminated-in-mortgage-refi-business-11648060817'} 
+ 
+{'id': 7066558, 'hashtag': 'top news', 'text': 'Traditional Finance Players Only Want to Talk About Crypto in Florida', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/newsletters/2022-03-23/traditional-finance-players-only-want-to-talk-about-crypto-in-florida'} 
+ 
+{'id': 7066556, 'hashtag': 'top news', 'text': 'Mercuria Energy Secures $2 Billion Emergency Credit as Traders Squeezed', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/mercuria-secures-2-billion-emergency-credit-as-traders-squeezed'} 
+ 
+{'id': 7066569, 'hashtag': 'top news', 'text': ': Inside Airbnb’s high-profile effort to house Ukrainian refugees: ‘At best, it’s badly worded. At worst, it’s misleading and not enough care is being taken.’', 'img_url': 'https://images.mktw.net/im-500820/social', 'url': 'https://www.marketwatch.com/story/inside-airbnbs-high-profile-effort-to-house-ukrainian-refugees-at-best-its-badly-worded-at-worst-its-misleading-and-not-enough-care-is-being-taken-11648060205'} 
+ 
+{'id': 7066605, 'hashtag': 'top news', 'text': 'JPMorgan Slashes Italy, Spain GDP Forecasts on War Shock - Bloomberg', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/jpmorgan-slashes-italy-spain-gdp-forecasts-on-war-shock'} 
+ 
+{'id': 7066531, 'hashtag': 'business', 'text': 'SpaceX raises prices for rocket launches and Starlink satellite internet as inflation hits raw materials', 'img_url': 'https://image.cnbcfm.com/api/v1/image/106907567-1625666077710-51283430936_7aeb15f6da_k.jpg?v=1625666168&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/spacex-raises-prices-for-launches-and-starlink-due-to-inflation.html'} 
+ 
+{'id': 7066534, 'hashtag': 'top news', 'text': 'Key challenges in Treasury 4.0 implementation', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/professional/blog/key-challenges-in-treasury-4-0-implementation/'} 
+ 
+{'id': 7066593, 'hashtag': 'top news', 'text': "Now's the Time for a U.S.-EU Trade Deal: Opinion (Podcast)", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/now-s-the-time-for-a-u-s-eu-trade-deal-opinion-podcast'} 
+ 
+{'id': 7066538, 'hashtag': 'top news', 'text': 'Russia Seizing Foreign Jets Triggers Surge in Insurance Claims', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/russia-seizing-foreign-jets-triggers-surge-in-insurance-claims'} 
+ 
+{'id': 7066539, 'hashtag': 'top news', 'text': "Doug Edert Is Turning His Cinderella 'Stache Into Cash", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/doug-edert-cashes-in-on-sweet-16-run-with-buffalo-wild-wings-barstool-sports'} 
+ 
+{'id': 7066557, 'hashtag': 'top news', 'text': 'Retirement Hacks: Medicare Advantage enrollment period is coming to an end – how to make sense of your healthcare before it’s too late', 'img_url': 'https://images.mktw.net/im-510521/social', 'url': 'https://www.marketwatch.com/story/medicare-advantage-enrollment-period-is-coming-to-an-end-how-to-make-sense-of-your-healthcare-before-its-too-late-11648058444'} 
+ 
+{'id': 7066540, 'hashtag': 'top news', 'text': 'Italian Car Designer Pininfarina Looks at M&A After Return to Profit', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/italian-designer-pininfarina-looks-at-m-a-after-return-to-profit'} 
+ 
+{'id': 7066621, 'hashtag': 'top news', 'text': "Pixar's Champion of Female Voices Wants More LGBTQ Characters - Bloomberg", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/disney-pixar-s-champion-of-female-voices-wants-more-lgbtq-characters'} 
+ 
+{'id': 7066535, 'hashtag': 'top news', 'text': "Rothschild's Wealth Unit Won't Accept New Russian Clients", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/rothschild-s-wealth-unit-will-not-accept-new-russian-clients'} 
+ 
+{'id': 7066613, 'hashtag': 'top news', 'text': 'Instagram to Give Users Option to See Most Recent Posts First', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/instagram-to-allow-users-to-see-most-recent-posts-first'} 
+ 
+{'id': 7066541, 'hashtag': 'top news', 'text': "J&J's Victory Over Cancer Victims Clears Path for 3M, Others", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/j-j-s-victory-over-cancer-victims-clears-path-for-3m-others'} 
+ 
+{'id': 7066550, 'hashtag': 'top news', 'text': 'The Wall Street Journal: Zelensky reportedly asked Biden to hold off on sanctioning oligarch Abramovich because of potential peacemaking role', 'img_url': 'https://images.mktw.net/im-510596/social', 'url': 'https://www.marketwatch.com/story/zelensky-reportedly-asked-biden-to-hold-off-on-sanctioning-oligarch-abramovich-because-of-potential-peacemaking-role-11648057559'} 
+ 
+{'id': 7066515, 'hashtag': 'business', 'text': 'Stocks making the biggest moves midday: GameStop, Adobe, General Mills and more', 'img_url': 'https://image.cnbcfm.com/api/v1/image/106883182-1620994871213-gettyimages-850236402-97594389.jpeg?v=1648053183&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/stocks-making-the-biggest-moves-midday-gamestop-adobe-general-mills-and-more.html'} 
+ 
+{'id': 7066536, 'hashtag': 'top news', 'text': "Shale Drillers Foresee 'World of Hurt' in Biden's Green Economy", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/shale-drillers-foresee-world-of-hurt-in-biden-s-green-economy'} 
+ 
+{'id': 7066528, 'hashtag': 'top news', 'text': 'In One Chart: Majority of Americans want Ketanji Brown Jackson to serve on the Supreme Court, poll shows', 'img_url': 'https://images.mktw.net/im-510494/social', 'url': 'https://www.marketwatch.com/story/majority-of-americans-want-ketanji-brown-jackson-to-serve-on-the-supreme-court-poll-shows-11648056366'} 
+ 
+{'id': 7066505, 'hashtag': 'top news', 'text': "Can Sanctions Really Stop Putin's War?", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/can-the-unprecedented-use-of-sanctions-really-stop-putin-s-war'} 
+ 
+{'id': 7066529, 'hashtag': 'top news', 'text': "Brett Arends's ROI: How ‘washed up…old man’ Warren Buffett is getting the last laugh", 'img_url': 'https://images.mktw.net/im-368937/social', 'url': 'https://www.marketwatch.com/story/how-washed-upold-man-warren-buffett-is-getting-the-last-laugh-11648055804'} 
+ 
+{'id': 7066530, 'hashtag': 'top news', 'text': ': Ketanji Brown Jackson talks up cops ‘who put their lives on the line’ and defends her approach on prison sentences', 'img_url': 'https://images.mktw.net/im-510291/social', 'url': 'https://www.marketwatch.com/story/ketanji-brown-jackson-talks-up-cops-who-put-their-lives-on-the-line-and-defends-her-approach-on-prison-sentences-11648055684'} 
+ 
+{'id': 7066506, 'hashtag': 'top news', 'text': 'Baystate Business: Gov. Baker at the Chamber (Audio)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/baystate-business-gov-baker-at-the-chamber-audio'} 
+ 
+{'id': 7066512, 'hashtag': 'top news', 'text': 'The Ratings Game: Nvidia’s $1 trillion ambitions draw cheers as software becomes a bigger piece of the pie', 'img_url': 'https://images.mktw.net/im-386226/social', 'url': 'https://www.marketwatch.com/story/nvidias-1-trillion-ambitions-draw-cheers-as-software-becomes-a-bigger-piece-of-the-pie-11648054478'} 
+ 
+{'id': 7066513, 'hashtag': 'top news', 'text': 'The Margin: Here’s the truth behind that Home Depot ‘privilege’ training guide going viral', 'img_url': 'https://images.mktw.net/im-490682/social', 'url': 'https://www.marketwatch.com/story/heres-the-truth-behind-that-home-depot-privilege-training-guide-going-viral-11648054243'} 
+ 
+{'id': 7066537, 'hashtag': 'top news', 'text': 'London Olympic Pool Evacuated After Chlorine Gas Leak', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/london-olympic-pool-evacuated-after-gas-release-incident'} 
+ 
+{'id': 7066514, 'hashtag': 'top news', 'text': ': A ‘Marshall plan’ for energy? Here’s what it would look like as new cold war dawns', 'img_url': 'https://images.mktw.net/im-510506/social', 'url': 'https://www.marketwatch.com/story/a-marshall-plan-for-energy-heres-what-it-would-look-like-as-new-cold-war-dawns-11648053945'} 
+ 
+{'id': 7066498, 'hashtag': 'top news', 'text': 'DeFi App Anchor Protocol Promising 20% Interest on Stablecoin - Bloomberg', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/terra-s-promise-of-20-defi-return-raises-sustainability-concern'} 
+ 
+{'id': 7066486, 'hashtag': 'top news', 'text': 'Russia Central Bank Governor Elvira Tried to Quit Over Ukraine; Putin Said No', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/russia-central-banker-wanted-out-over-ukraine-but-putin-said-no'} 
+ 
+{'id': 7066487, 'hashtag': 'top news', 'text': 'The Ukraine War And Energy Crisis (Podcast)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/the-ukraine-war-and-energy-crisis-podcast'} 
+ 
+{'id': 7066500, 'hashtag': 'top news', 'text': ': This father of three is navigating FIRE after divorce divided his assets', 'img_url': 'https://images.mktw.net/im-510517/social', 'url': 'https://www.marketwatch.com/story/this-father-of-three-is-navigating-fire-after-divorce-divided-his-assets-11648053167'} 
+ 
+{'id': 7066488, 'hashtag': 'top news', 'text': "A Historic Disruption To The World's Wheat Supply (Podcast)", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/a-historic-disruption-to-the-world-s-wheat-supply-podcast'} 
+ 
+{'id': 7066489, 'hashtag': 'top news', 'text': "Sweden Jumps the Gun on Covid Strategist's New WHO Job", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/sweden-jumps-the-gun-on-covid-strategist-s-new-who-job'} 
+ 
+{'id': 7066490, 'hashtag': 'top news', 'text': 'The Economy In 2022 (Radio)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/the-economy-in-2022-radio'} 
+ 
+{'id': 7066485, 'hashtag': 'top news', 'text': 'The Fed: Fed’s Daly says ‘everything on table’ in May, including 50 basis point hike and shrinking balance sheet', 'img_url': 'https://images.mktw.net/im-436156/social', 'url': 'https://www.marketwatch.com/story/feds-daly-says-everything-on-table-in-may-including-50-basis-point-hike-and-shrinking-balance-sheet-11648051929'} 
+ 
+{'id': 7066477, 'hashtag': 'top news', 'text': 'Fed’s Loretta Mester Says Some 50 Basis Point Interest Rate Hikes Needed in 2022', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/fed-s-mester-says-some-50-basis-point-rate-hikes-needed-in-2022'} 
+ 
+{'id': 7066450, 'hashtag': 'top news', 'text': "Wall Street bonuses climb to record $257,500 per worker last year, New York's fiscal chief says", 'img_url': 'https://image.cnbcfm.com/api/v1/image/106949509-1632929092275-gettyimages-1343846697-dscf6103_20210929104235283.jpeg?v=1639691329&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/wall-street-bonuses-climb-to-record-257500-per-worker-last-year-new-yorks-fiscal-chief-says.html'} 
+ 
+{'id': 7066451, 'hashtag': 'top news', 'text': "'I'm spent': Ash Barty's shock retirement from tennis offers some vital career lessons", 'img_url': 'https://image.cnbcfm.com/api/v1/image/107035179-1648038150046-gettyimages-1372432661-095a0170_7eb4070e-d21b-4df0-9a61-1b7c8b5214e2.jpeg?v=1648038190&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/careers-lessons-from-ash-bartys-retirement-from-tennis.html'} 
+ 
+{'id': 7066471, 'hashtag': 'top news', 'text': 'Equity Investors Try To Become Goldfish: Macro Man Podcast', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/equity-investors-try-to-become-goldfish-macro-man-podcast'} 
+ 
+{'id': 7066484, 'hashtag': 'top news', 'text': ': Shoppers can still get a $95 pair of prescription glasses at Warby Parker despite inflation', 'img_url': 'https://images.mktw.net/im-408320/social', 'url': 'https://www.marketwatch.com/story/shoppers-can-still-get-a-95-pair-of-prescription-glasses-at-warby-parker-despite-inflation-11648050521'} 
+ 
+{'id': 7066491, 'hashtag': 'top news', 'text': 'IPO Winner Minted in Brazil as Record Aluminum Rally Propels CBA', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/ipo-winner-minted-in-brazil-as-record-aluminum-rally-propels-cba'} 
+ 
+{'id': 7066473, 'hashtag': 'top news', 'text': 'Market Extra: The stock market hit its pandemic bottom 2 years ago today — How the Dow, S&P 500 and Nasdaq have fared', 'img_url': 'https://images.mktw.net/im-339328/social', 'url': 'https://www.marketwatch.com/story/its-the-2nd-anniversary-of-the-stock-markets-covid-bottom-heres-how-the-rally-stacks-up-11648049495'} 
+ 
+{'id': 7066462, 'hashtag': 'top news', 'text': "Coffee Farmers Face 'Mega Emergency' as Fertilizer Costs Soar", 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/coffee-farmers-face-mega-emergency-as-fertilizer-costs-soar'} 
+ 
+{'id': 7066472, 'hashtag': 'top news', 'text': 'Starbucks Workers Fight to Unionize', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/videos/2022-03-23/starbucks-workers-fight-to-unionize-video'} 
+ 
+{'id': 7066455, 'hashtag': 'top news', 'text': 'The Fed: Fed’s Mester says ‘markets can handle’ front-loading of rate hikes and balance sheet reduction at same time', 'img_url': 'https://images.mktw.net/im-280561/social', 'url': 'https://www.marketwatch.com/story/feds-mester-says-markets-can-handle-front-loading-of-rate-hikes-and-balance-sheet-reduction-at-same-time-11648048221'} 
+ 
+{'id': 7066454, 'hashtag': 'top news', 'text': 'MacKenzie Scott Gave $3.9 Billion to Nonprofits in Past 9 Months', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/mackenzie-scott-gave-3-9-billion-to-nonprofits-in-past-9-months'} 
+ 
+{'id': 7066499, 'hashtag': 'top news', 'text': 'Crypto-SPAC Deals Pile Up as Already-Listed Trio Outpace Average - Bloomberg', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/crypto-spac-deals-pile-up-as-already-listed-trio-outpace-average'} 
+ 
+{'id': 7066404, 'hashtag': 'top news', 'text': 'Trump withdraws endorsement of Alabama Senate candidate Mo Brooks, who urged GOP to stop questioning 2020 election', 'img_url': 'https://image.cnbcfm.com/api/v1/image/106931699-1629727788867-gettyimages-1335522991-a16i0014_3c01dc1f-61ee-437b-8dfd-938473da2923.jpeg?v=1629727819&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/trump-withdraws-mo-brooks-endorsement-in-alabama-senate-race.html'} 
+ 
+{'id': 7066456, 'hashtag': 'top news', 'text': 'Economic Report: A Russian oil-sparked U.S. recession? This is how it could happen', 'img_url': 'https://images.mktw.net/im-510265/social', 'url': 'https://www.marketwatch.com/story/a-russian-oil-sparked-u-s-recession-this-is-how-it-could-happen-11648047987'} 
+ 
+{'id': 7066439, 'hashtag': 'top news', 'text': 'Surveillance: Inflation Controls with Ryding (Podcast)', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/audio/2022-03-23/surveillance-inflation-controls-with-ryding-podcast'} 
+ 
+{'id': 7066457, 'hashtag': 'top news', 'text': 'BookWatch: Dreaming of retiring abroad? Watch out for these 3 giant pitfalls', 'img_url': 'https://images.mktw.net/im-510368/social', 'url': 'https://www.marketwatch.com/story/dreaming-of-retiring-abroad-watch-out-for-these-3-pitfalls-11648047564'} 
+ 
+{'id': 7066434, 'hashtag': 'top news', 'text': 'General Mills Lifts Outlook, Sees Price Hikes Driving Sales', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/general-mills-lifts-outlook-sees-price-hikes-driving-sales'} 
+ 
+{'id': 7066399, 'hashtag': 'business', 'text': 'Alaska Airlines is trying to ease staffing shortage by offering flight attendants double pay to pick up shifts', 'img_url': 'https://image.cnbcfm.com/api/v1/image/107035207-1648040924485-gettyimages-1170330121-bb141260_2019082581255283.jpeg?v=1648040961&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/alaska-airlines-flight-attendants-get-double-pay-to-pick-up-shifts.html'} 
+ 
+{'id': 7066449, 'hashtag': 'top news', 'text': 'Coronavirus Update: Moderna seeks regulatory nod for COVID vaccine in very young children and WHO reports second straight week of cases rising globally', 'img_url': 'https://images.mktw.net/im-468998/social', 'url': 'https://www.marketwatch.com/story/moderna-seeks-regulatory-nod-for-covid-vaccine-in-very-young-children-and-who-reports-second-straight-week-of-cases-rising-globally-11648046725'} 
+ 
+{'id': 7066375, 'hashtag': 'top news', 'text': "One of Putin's aides has reportedly just quit in opposition to the Ukraine war", 'img_url': 'https://image.cnbcfm.com/api/v1/image/107035222-1648041861364-gettyimages-627821240-93686209.jpeg?v=1648041980&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/putins-top-aide-chubais-reportedly-quits-opposing-ukraine-invasion.html'} 
+ 
+{'id': 7066463, 'hashtag': 'top news', 'text': 'Janus Henderson Names Dibadj CEO Amid Shareholder Pressure', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/janus-henderson-names-dibadj-as-next-chief-executive-officer'} 
+ 
+{'id': 7066408, 'hashtag': 'top news', 'text': 'Boris Johnson Enters Transgender Debate By Saying Biology Is Important', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/johnson-enters-transgender-debate-by-saying-biology-is-important'} 
+ 
+{'id': 7066409, 'hashtag': 'top news', 'text': 'Microsoft Says Lapsus$ Hackers Target Cryptocurrency, Too', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/lapsus-extortion-gang-hit-microsoft-and-targets-cryptocurrency'} 
+ 
+{'id': 7066410, 'hashtag': 'top news', 'text': 'How Russia Has Revived Fears of Nuclear War in Europe', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/how-russia-has-revived-fears-of-nuclear-war-in-europe-quicktake'} 
+ 
+{'id': 7066435, 'hashtag': 'top news', 'text': 'MTA Names Former Massachusetts Transport Chief to Head NYC Subways', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/mta-taps-ex-massachusetts-transport-chief-to-head-nyc-subways'} 
+ 
+{'id': 7066426, 'hashtag': 'top news', 'text': ': Stock trading in Russia set to resume for first time since Ukraine invasion', 'img_url': 'https://images.mktw.net/im-510343/social', 'url': 'https://www.marketwatch.com/story/stock-trading-in-russia-set-to-resume-for-first-time-since-ukraine-invasion-11648045393'} 
+ 
+{'id': 7066427, 'hashtag': 'top news', 'text': 'Economic Report: New home sales slide, even though the inventory of properties for sale has hit the highest level since 2008', 'img_url': 'https://images.mktw.net/im-474433/social', 'url': 'https://www.marketwatch.com/story/new-home-sales-slide-even-though-the-inventory-of-properties-for-sale-has-hit-the-highest-level-since-2008-11648044987'} 
+ 
+{'id': 7066376, 'hashtag': 'top news', 'text': 'UBS Will Allow Some U.S. Employees to Work Remotely Full-Time', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/ubs-to-allow-some-u-s-employees-to-work-remotely-full-time'} 
+ 
+{'id': 7066377, 'hashtag': 'top news', 'text': 'GameStop Stock (GME) Jumps After Chairman Ryan Cohen Boosts Stake to 11.9%', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/gamestop-jumps-after-chairman-cohen-boosts-stake-to-11-9'} 
+ 
+{'id': 7066366, 'hashtag': 'top news', 'text': "Investing Club: What Cramer is watching Wednesday — Covid 'fade,' Nvidia's AI extravaganza, GameStop surges", 'img_url': 'https://image.cnbcfm.com/api/v1/image/107029716-1647237492823-Thumbnail_Digital_Originals_Covid_Testing_V1_Clean.jpg?v=1647237648&w=1920&h=1080', 'url': 'https://www.cnbc.com/2022/03/23/cramer-watching-covid-fade-nvidias-ai-extravaganza-gamestop-surges.html'} 
+ 
+{'id': 7066402, 'hashtag': 'top news', 'text': 'Putin Wants Hostile States to Pay Rubles for Gas, Interfax Says', 'img_url': 'https://data.bloomberglp.com/company/sites/2/2019/01/logobbg-wht.png', 'url': 'https://www.bloomberg.com/news/articles/2022-03-23/putin-wants-hostile-states-to-pay-rubles-for-gas-interfax-says'} 
+ 

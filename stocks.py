@@ -65,10 +65,10 @@ def get_available_stocks(SE):
     return df_file_name
 
 
-def get_general_news(file_name='last_id.txt'):
+def get_general_news():
     news_list = []
 
-    with open(file_name, 'r') as file:
+    with open('news/last_id.txt', 'r') as file:
         id_ = file.read()
 
     news = finnhub_client.general_news('general', min_id=id_)
@@ -96,11 +96,14 @@ def get_general_news(file_name='last_id.txt'):
 
     last_id = id_
 
-    with open('last_id.txt', 'w') as file:
+    with open('news/last_id.txt', 'w') as file:
         file.write(f'{last_id} \n')
 
-    return news_list
+    with open('news/news_register.txt', 'w') as file:
+        for item in news_list:
+            file.write(f"{str(item)} \n")
 
+    return news_list
 
 
 def get_company_news(ticker, fromdate, todate):
