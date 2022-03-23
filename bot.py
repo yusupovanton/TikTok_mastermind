@@ -29,7 +29,7 @@ def stock_news():
 
         with open('news/news_register.txt', 'w') as file:
             for item in news_list:
-                file.write(f"{str(item)} \n")
+                file.write(f"{str(item)}")
 
         return message
 
