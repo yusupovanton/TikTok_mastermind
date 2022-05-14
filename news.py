@@ -1,9 +1,5 @@
-import time
 from handlers.config import FILE_NAME
-import requests
-from bs4 import BeautifulSoup
-import logging
-import ast
+from handlers.imports import *
 
 
 '''Logging'''
@@ -143,44 +139,50 @@ def write_news_to_file(links_set, file_name1='news_links.txt', file_name2='links
 '''Main function (maintenance)'''
 
 
-def get_link(file_name1='news_links.txt'):
+def get_link():
 
-    links_list = open(file_name1).readlines()
+    links_list = open('news_links.txt').readlines()
     links_left = len(links_list)
 
-    print("amount of links there are left: " + str(links_left))
-
-    if not links_list:
-        print('Need to go set some news...')
-
-        links_set = set()
-        tries_count = 1
-        while not links_set:
-            print(f'Trying to get news. This is my {tries_count} try...')
-            links_set = ScraperYandex().most_popular_news()
-            if not links_set:
-                print(f'Try not successful :('
-                      f'Going to sleep for 10 minutes')
-                time.sleep(600)
-                tries_count += 1
-
-        print(f'Try successful :) Links are: {links_set}')
-        write_news_to_file(links_set)
-
-        links_list = open(file_name1).readlines()
+    print(f"Getting a link. The amount of links there are left: {links_left}")
 
     if links_list:
-        links_list = open(file_name1).readlines()
+        links_list = open('news_links.txt', 'r').readlines()
 
-        link = links_list[0]
+        link_to_return = links_list[0]
+
         links_list.pop(0)
 
-        with open(FILE_NAME, 'w') as file:
+        with open('news_links.txt', 'w') as file:
             for item in links_list:
                 item = str(item)
                 file.write(item)
 
-        return link
     else:
-        print("No links left in the file")
+        print('Need to go set some news...')
+
+        links_set = set()
+        tries_count = 0
+        while not links_set:
+            tries_count += 1
+            print(f'Trying to get news. This is my {tries_count} try...')
+
+            links_set = ScraperYandex().most_popular_news()
+
+            if not links_set:
+                print(f'Try not successful :('
+                      f'Going to sleep for 10 minutes')
+                time.sleep(600)
+
+            if tries_count >= 5:
+                print(f"Getting news run unseccessfully")
+                break
+
+        print(f'Try successful :) Links are: {links_set}')
+        write_news_to_file(links_set)
+
+        links_list = open('news_links.txt').readlines()
+        link_to_return = links_list[0]
+
+    return link_to_return
 

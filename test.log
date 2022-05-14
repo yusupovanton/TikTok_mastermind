@@ -33842,3 +33842,165 @@ Traceback (most recent call last):
 KeyboardInterrupt
 2022-03-24 00:00:57,349 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
 2022-03-24 00:00:58,026 Goodbye!
+2022-05-14 14:55:10,802 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 14:55:11,962 Updates were skipped successfully.
+2022-05-14 14:55:11,970 Start polling.
+2022-05-14 14:55:12,372 Target [ID:-1001585932067]: success
+2022-05-14 14:55:52,510 Stop polling...
+2022-05-14 14:55:52,513 Goodbye!
+2022-05-14 14:55:52,585 Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:61> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 65, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 49, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+2022-05-14 14:55:56,043 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 14:55:57,223 Updates were skipped successfully.
+2022-05-14 14:55:57,227 Start polling.
+2022-05-14 14:55:57,499 Target [ID:-1001585932067]: success
+2022-05-14 14:56:07,624 Target [ID:-1001585932067]: success
+2022-05-14 14:56:17,780 Target [ID:-1001585932067]: success
+2022-05-14 14:56:22,034 Stop polling...
+2022-05-14 14:56:22,035 Goodbye!
+2022-05-14 14:56:22,092 Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:61> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 65, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 49, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+2022-05-14 15:02:45,676 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:02:46,828 Updates were skipped successfully.
+2022-05-14 15:02:46,833 Goodbye!
+2022-05-14 15:03:59,480 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:04:00,636 Updates were skipped successfully.
+2022-05-14 15:04:00,640 Goodbye!
+2022-05-14 15:12:25,891 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:12:27,050 Updates were skipped successfully.
+2022-05-14 15:12:27,508 Start polling.
+2022-05-14 15:12:27,947 Target [ID:-1001585932067]: success
+2022-05-14 15:12:37,954 Target [ID:-1001389315725]: success
+2022-05-14 15:12:47,961 Target [ID:-1001585932067]: success
+2022-05-14 15:12:57,968 Target [ID:-1001389315725]: success
+2022-05-14 15:13:06,527 Stop polling...
+2022-05-14 15:13:06,528 Target [ID:-1001585932067]: success
+2022-05-14 15:24:10,713 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:24:11,881 Updates were skipped successfully.
+2022-05-14 15:24:12,396 Start polling.
+2022-05-14 15:24:12,646 Target [ID:-1001389315725]: success
+2022-05-14 15:24:22,650 Target [ID:-1001585932067]: success
+2022-05-14 15:24:32,657 Target [ID:-1001389315725]: success
+2022-05-14 15:24:42,665 Target [ID:-1001585932067]: success
+2022-05-14 15:24:52,673 Target [ID:-1001389315725]: success
+2022-05-14 15:24:56,591 Stop polling...
+2022-05-14 15:24:56,592 Target [ID:-1001585932067]: success
+2022-05-14 15:30:01,070 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:30:02,300 Updates were skipped successfully.
+2022-05-14 15:30:02,816 Start polling.
+2022-05-14 15:30:03,325 Target [ID:-1001389315725]: success
+2022-05-14 15:30:13,887 Target [ID:-1001585932067]: success
+2022-05-14 15:30:22,574 Stop polling...
+2022-05-14 15:30:22,576 Target [ID:-1001389315725]: success
+2022-05-14 15:30:33,014 Goodbye!
+2022-05-14 15:30:33,065 Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:63> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 67, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 50, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+2022-05-14 15:31:06,454 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-14 15:31:07,595 Updates were skipped successfully.
+2022-05-14 15:31:08,047 Start polling.
+2022-05-14 15:31:08,299 Target [ID:-1001585932067]: success
+2022-05-14 15:40:44,296 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:63> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 67, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 54, in broadcaster
+    if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 16, in send_message
+    await bot.send_message(user_id, text, disable_notification=disable_notification)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 334, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-14 15:40:44,336 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-14 15:40:44,750 Target [ID:-1001585932067]: success
+2022-05-14 15:41:42,705 Stop polling...
+2022-05-14 15:41:42,705 Polling is stopped.
+2022-05-14 15:41:42,706 Goodbye!
+2022-05-14 15:41:42,750 Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:63> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 67, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 50, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt

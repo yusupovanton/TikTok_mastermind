@@ -33851,3 +33851,55 @@ Traceback (most recent call last):
 KeyboardInterrupt
 INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
 WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Target [ID:-1001585932067]: success
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:61> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 65, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 49, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Target [ID:-1001585932067]: success
+INFO:root:Target [ID:-1001585932067]: success
+INFO:root:Target [ID:-1001585932067]: success
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:61> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 65, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 49, in broadcaster
+    time.sleep(time_sleep)
+KeyboardInterrupt
+INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+WARNING:aiogram:Updates were skipped successfully.
+WARNING:aiogram:Goodbye!

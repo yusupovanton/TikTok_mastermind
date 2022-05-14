@@ -1,6 +1,6 @@
-from news import *
+from news import get_link
 from stocks import *
-from tiktok import *
+
 from handlers.personal_actions import *
 import ast
 
@@ -34,7 +34,7 @@ def stock_news():
         return message
 
 
-def regular_news():
+def regular_news() -> str:
     link = get_link()
     print(link)
     markup = requests.get(link).text
@@ -55,7 +55,10 @@ def regular_news():
 
         after_word = new_tags.split(' ', 1)[1:]
         text = f"<a href='{link}'>{word}</a> {after_word[0]}"
-        return text
+    else:
+        text = ""
+
+    return text
 
 
 def main():

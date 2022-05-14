@@ -1,8 +1,4 @@
-import finnhub
-import dash
-import os
-import pandas as pd
-
+from handlers.imports import *
 
 EXCHANGE = 'ME'
 if not os.path.exists("images"):
@@ -134,7 +130,7 @@ def main(user_input=None):
     # get_available_stocks(EXCHANGE)
     # print(symbol_lookup('FXCN'))
     # print(get_basic_financials('GAZP.ME'))
-    get_general_news()
+    print(get_general_news())
 
 
 if __name__ == '__main__':
