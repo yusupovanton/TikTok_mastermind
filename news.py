@@ -178,7 +178,6 @@ def get_link():
                 print(f"Getting news run unseccessfully")
                 break
 
-        print(f'Try successful :) Links are: {links_set}')
         write_news_to_file(links_set)
 
         links_list = open('news_links.txt').readlines()
