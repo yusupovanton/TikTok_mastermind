@@ -39,14 +39,14 @@ async def broadcaster(task):
         if task == 'tiktok_video':
             await bot.send_video(chat_id=TIKTOK_CHANNEL_ID, video='value')
             print('TikTok video post successful. Going to sleep now...')
-            time_sleep = random.randint(360, 600)
+            time_sleep = random.randint(30, 60)
             time.sleep(time_sleep)
 
         elif task == 'stocks_news':
             news_text = stock_news()
             if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
 
-                time_sleep = random.randint(360, 600)
+                time_sleep = random.randint(30, 60)
                 print(f'Stock news post successful. Going to sleep now for {time_sleep}s...')
                 time.sleep(time_sleep)
 
@@ -54,7 +54,7 @@ async def broadcaster(task):
             news_text = regular_news()
             if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
 
-                time_sleep = random.randint(360, 600)
+                time_sleep = random.randint(30, 60)
                 print(f'News post successful. Going to sleep now for {time_sleep}s...')
                 time.sleep(time_sleep)
         else:

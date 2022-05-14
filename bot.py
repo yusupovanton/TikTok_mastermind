@@ -12,7 +12,7 @@ def stock_news():
         news_list = file.readlines()
         if len(news_list) <= 2:
             get_general_news()
-    print(news_list)
+
     if news_list:
         item = ast.literal_eval(news_list[0])
 
@@ -36,7 +36,7 @@ def stock_news():
 
 def regular_news() -> str:
     link = get_link()
-    print(link)
+
     markup = requests.get(link).text
     soup = BeautifulSoup(markup, 'html.parser')
 
