@@ -33903,3 +33903,14 @@ WARNING:aiogram:Goodbye!
 INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
 WARNING:aiogram:Updates were skipped successfully.
 WARNING:aiogram:Goodbye!
+INFO:aiogram:Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+WARNING:aiogram:Updates were skipped successfully.
+INFO:aiogram.dispatcher.dispatcher:Start polling.
+INFO:root:Target [ID:-1001585932067]: success
+INFO:root:Stock news post successful. Going to sleep for (661s).
+Successful stock news sent: 1
+INFO:root:Target [ID:-1001389315725]: success
+INFO:root:News post successful. Going to sleep for (362s).
+Successful yandex news sent: 1
+INFO:aiogram.dispatcher.dispatcher:Stop polling...
+WARNING:aiogram:Goodbye!

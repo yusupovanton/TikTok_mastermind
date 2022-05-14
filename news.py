@@ -1,12 +1,4 @@
-from handlers.config import FILE_NAME
-from handlers.imports import *
-
-
-'''Logging'''
-
-logging.basicConfig(level=logging.INFO)
-log = logging.getLogger('broadcast')
-
+from handlers.dispatcher import *
 
 '''HTML Scraping (news)'''
 
@@ -21,7 +13,7 @@ class ScraperYandex:
         self.soup = BeautifulSoup(self.markup, 'html.parser')
         self.captcha_encounter = ''
 
-    def most_popular_news(self):
+    def most_popular_news(self) -> set:
         captcha = self.soup.findAll('div', {"class": "CheckboxCaptcha"})
 
         if captcha:
@@ -33,13 +25,13 @@ class ScraperYandex:
             links = self.soup.findAll('a', {"class": "mg-card__link"})
             if links:
                 for item in links:
-                    print(item)
                     link = str(item).split('href="')[1].split('" rel')[0]
                     self.saved_links.add(link)
-                print(self.saved_links)
-                return self.saved_links
+
             else:
                 print(f'No links found. (Links are: {links})')
+
+        return self.saved_links
 
     def get_categories(self):
         captcha = self.soup.findAll('div', {"class": "CheckboxCaptcha"})
@@ -107,28 +99,33 @@ def get_news(get_categories=False):
         print(ex)
 
 
-def sort_news(links_set, sort_duplicates=True):
-    print('sorting links...')
-    if sort_duplicates:
+def sort_news(links_set) -> set:
+
+    """SORTS THE GIVEN SET OF LINKS BASED ON THE REGISTER OF LINKS THAT THE BOT HAS ALREADY SENT"""
+    logger.info('Sorting links...')
+
+    if links_set:
         with open('links_register.txt', 'r') as file:
-            if file.read():
-                links_reg = ast.literal_eval(file.read())
-                result_set = links_set.difference(links_reg)
-                return result_set
-            else:
-                print(f'The register is empty. Have nothing to compare to')
-                return links_set
+
+            links_reg = ast.literal_eval(file.read())
+            result_set = links_set.difference(links_reg)
+    else:
+        logger.error(f"Empty set was given to sort. That is not going to work!")
+        result_set = set()
+
+    return result_set
 
 
-def write_news_to_file(links_set, file_name1='news_links.txt', file_name2='links_register.txt', write_only_sorted=True):
-    print('starting to write links')
+def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='links_register.txt', write_only_sorted=True):
+    """WRITES THE GIVEN LINKS TO A CORRESPONDING FILE"""
+
+    print('Writing links to file...')
 
     if write_only_sorted:
         links_set = sort_news(links_set)
 
     with open(file_name1, 'w') as file:
         for item in links_set:
-            print(item)
             item = str(item)
             file.write(item + '\n')
 
@@ -136,13 +133,11 @@ def write_news_to_file(links_set, file_name1='news_links.txt', file_name2='links
         file.write(str(links_set))
 
 
-'''Main function (maintenance)'''
-
-
-def get_link():
+def get_link() -> str:
 
     links_list = open('news_links.txt').readlines()
     links_left = len(links_list)
+    link_to_return = ""
 
     print(f"Getting a link. The amount of links there are left: {links_left}")
 
@@ -150,7 +145,6 @@ def get_link():
         links_list = open('news_links.txt', 'r').readlines()
 
         link_to_return = links_list[0]
-
         links_list.pop(0)
 
         with open('news_links.txt', 'w') as file:
@@ -159,29 +153,49 @@ def get_link():
                 file.write(item)
 
     else:
-        print('Need to go set some news...')
+        print('Zero links left in the file! Need to go set some news...')
 
         links_set = set()
         tries_count = 0
+        time_increase = 0
+
         while not links_set:
             tries_count += 1
+            time_increase += 5
             print(f'Trying to get news. This is my {tries_count} try...')
 
             links_set = ScraperYandex().most_popular_news()
 
-            if not links_set:
-                print(f'Try not successful :('
-                      f'Going to sleep for 10 minutes')
-                time.sleep(600)
+            if not links_set:  # IF DIDN'T FIND LINKS - SEARCH AGAIN
+                time_span = 2 + time_increase
+                logger.warning(f'Try not successful :('
+                               f'Going to sleep for {time_span} minutes')
+                time.sleep(time_span * 60)
+                links_set = ScraperYandex().most_popular_news()
 
-            if tries_count >= 5:
-                print(f"Getting news run unseccessfully")
+            elif tries_count > 5 and not links_set:  # BREAK CONDITION
+                logger.error(f"Getting news run unsuccessfully")
+                link_to_return = ""
                 break
 
-        write_news_to_file(links_set)
-
-        links_list = open('news_links.txt').readlines()
-        link_to_return = links_list[0]
+            elif links_set:  # IF FOUND LINKS
+                write_news_to_file(links_set)
+                logger.info(f"Wrote {len(links_set)} links to file. Will try to get a link again.")
+                get_link()
 
     return link_to_return
+
+
+def main():
+
+    li = ScraperYandex().most_popular_news()
+    if li:
+        write_news_to_file(li, write_only_sorted=True)
+    else:
+        time.sleep(30)
+        main()
+
+
+if __name__ == '__main__':
+    main()
 

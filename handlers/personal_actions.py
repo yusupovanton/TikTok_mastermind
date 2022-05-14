@@ -1,3 +1,5 @@
+import random
+
 from handlers.dispatcher import *
 from handlers.config import *
 from bot import stock_news, regular_news
@@ -32,33 +34,35 @@ async def send_message(user_id: int, text: str, disable_notification: bool = Fal
     return False
 
 
-async def broadcaster(task):
+async def broadcaster(task: str) -> None:
 
-    while True:
+    if task == 'tiktok_video':
+        pass
 
-        if task == 'tiktok_video':
-            await bot.send_video(chat_id=TIKTOK_CHANNEL_ID, video='value')
-            print('TikTok video post successful. Going to sleep now...')
-            time_sleep = random.randint(30, 60)
-            time.sleep(time_sleep)
-
-        elif task == 'stocks_news':
-            news_text = stock_news()
+    elif task == 'stocks_news':
+        successful_msg = 0
+        while True:
+            news_text = stock_news()  # Getting a link from Finnhub
             if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
+                successful_msg += 1
+                time_sleep = random.randint(360, 720)
+                logger.info(f'Stock news post successful. Going to sleep for ({time_sleep}s).\nSuccessful stock news sent: '
+                            f'{successful_msg}')
+                await asyncio.sleep(time_sleep)
 
-                time_sleep = random.randint(30, 60)
-                print(f'Stock news post successful. Going to sleep now for {time_sleep}s...')
-                time.sleep(time_sleep)
-
-        elif task == 'reg_news':
-            news_text = regular_news()
+    elif task == 'reg_news':
+        successful_msg = 0
+        while True:
+            news_text = regular_news()  # Getting a link from the register
             if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
+                successful_msg += 1
+                time_sleep = random.randint(360, 720)
+                logger.info(f'News post successful. Going to sleep for ({time_sleep}s).\nSuccessful yandex news sent: '
+                            f'{successful_msg}')
+                await asyncio.sleep(time_sleep)
 
-                time_sleep = random.randint(30, 60)
-                print(f'News post successful. Going to sleep now for {time_sleep}s...')
-                time.sleep(time_sleep)
-        else:
-            print(f'Wrong name in the description of the variable passed {task}')
+    else:
+        print(f'Wrong task name passed: {task}')
 
 
 async def background_on_start(**kwargs) -> None:
@@ -84,9 +88,10 @@ async def background_task_creator(message: types.Message) -> None:
 async def on_bot_start_up(dispatcher: Dispatcher) -> None:
     """List of actions which should be done before bot start"""
 
-    asyncio.create_task(background_on_start(task="stocks_news"))
+    task1 = asyncio.create_task(background_on_start(task="stocks_news"))
+    task2 = asyncio.create_task(background_on_start(task="reg_news"))
 
-    asyncio.create_task(background_on_start(task="reg_news"))
+    logger.debug(f"{task1}, {task2}")
 
 
 def create_bot_factory(**kwargs) -> None:

@@ -20,3 +20,4 @@ import asyncio
 from aiogram.utils import exceptions, executor
 import finnhub
 import dash
+import urllib.request

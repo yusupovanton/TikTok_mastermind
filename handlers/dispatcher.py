@@ -1,5 +1,3 @@
-import logging
-
 from handlers.config import *
 from handlers.imports import *
 from handlers.filters import IsOwnerFilter
@@ -33,8 +31,6 @@ handler = logging.FileHandler('test.log', 'a', 'utf-8')
 frmt = logging.Formatter('%(asctime)s %(message)s')
 handler.setFormatter(frmt)
 logger.addHandler(handler)
-
-
 ch = logging.StreamHandler()
 
 

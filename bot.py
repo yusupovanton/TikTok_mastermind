@@ -1,3 +1,5 @@
+import urllib.request
+
 from news import get_link
 from stocks import *
 
@@ -35,19 +37,35 @@ def stock_news():
 
 
 def regular_news() -> str:
+
+    """TAKES A LINK FROM THE REGISTER AND EXTRACTS TEXT FROM IT"""
+
+    reason = ""
     link = get_link()
 
     markup = requests.get(link).text
     soup = BeautifulSoup(markup, 'html.parser')
 
     article_text = soup.findAll('h1', {'class': 'mg-story__title'})
+    captcha = soup.findAll('div', {"class": "CheckboxCaptcha"})
+
+    if captcha:
+        reason = "Captcha Encounter!"
+
+    try_count = 0
 
     while not article_text:
-        print('Try to get header attempted, but not successful. Going to sleep for 10 minutes')
-        time.sleep(600)
+
+        try_count += 1
+        print(f'{try_count} tries to get article header attempted, but not successful. Reason: {reason}. '
+              f'Going to sleep for 6 minutes')
+        time.sleep(360)
+        markup = requests.get(link).text
         article_text = soup.findAll('h1', {'class': 'mg-story__title'})
 
     if article_text:
+
+        # HANDLING THE HTML FORMAT
         tags = str(article_text[0])
         tags = tags.split('target="_blank">')[1]
         new_tags = tags.split('</')[0]
