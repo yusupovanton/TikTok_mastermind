@@ -1,25 +1,23 @@
-2022-05-15 23:04:39,485 
+2022-05-15 21:07:12,105 
 RUN STARTED ============================
-2022-05-15 23:04:39,491 
+2022-05-15 21:07:12,124 
 RUN STARTED ============================
-2022-05-15 23:04:40,001 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
-2022-05-15 23:04:41,267 Updates were skipped successfully.
-2022-05-15 23:04:41,267 Entered coroutine for searching and writing Y-news.
-2022-05-15 23:04:41,890 Accessing Yandex...
-2022-05-15 23:04:41,902 Success! Found 65 links at Yandex!
-2022-05-15 23:04:41,904 Writing links to file...
-2022-05-15 23:04:41,904 Sorting links...
-2022-05-15 23:04:41,905 Successfully wrote the links to the file!
-2022-05-15 23:04:41,905 Getting stock news...
-2022-05-15 23:04:42,430 Preparing a message for the stock news channel...
-2022-05-15 23:04:42,434 Getting a Yandex link from the file. The amount of Y-links there are left: 65
-2022-05-15 23:04:42,950 Have successfully found the article for the link.
-2022-05-15 23:04:42,952 Start polling.
-2022-05-15 23:04:43,186 Target [ID:-1001585932067]: success
-2022-05-15 23:04:43,186 Stock news post successful. Going to sleep for (558s).
+2022-05-15 21:07:12,451 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 21:07:13,669 Updates were skipped successfully.
+2022-05-15 21:07:13,670 Entered coroutine for searching and writing Y-news.
+2022-05-15 21:07:14,939 Accessing Yandex...
+2022-05-15 21:07:14,990 Success! Found 65 links at Yandex!
+2022-05-15 21:07:15,002 Writing links to file...
+2022-05-15 21:07:15,002 Sorting links...
+2022-05-15 21:07:15,004 Successfully wrote the links to the file!
+2022-05-15 21:07:15,004 Getting stock news...
+2022-05-15 21:07:15,136 Preparing a message for the stock news channel...
+2022-05-15 21:07:15,138 Getting a Yandex link from the file. The amount of Y-links there are left: 129
+2022-05-15 21:07:16,074 Have successfully found the article for the link.
+2022-05-15 21:07:16,077 Start polling.
+2022-05-15 21:07:16,467 Target [ID:-1001585932067]: success
+2022-05-15 21:07:16,468 Stock news post successful. Going to sleep for (556s).
 Successful stock news sent: 1
-2022-05-15 23:04:43,208 Target [ID:-1001389315725]: success
-2022-05-15 23:04:43,208 News post successful. Going to sleep for (653s).
+2022-05-15 21:07:16,474 Target [ID:-1001389315725]: success
+2022-05-15 21:07:16,475 News post successful. Going to sleep for (623s).
 Successful yandex news sent: 1
-2022-05-15 23:06:04,547 Stop polling...
-2022-05-15 23:06:04,547 Goodbye!
