@@ -49,7 +49,8 @@ async def broadcaster(task: str) -> None:
                 news_text = stock_news()  # Getting a link from Finnhub
                 if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
                     successful_msg += 1
-                    time_sleep = random.randint(360, 720)
+                    time_sleep = random.randint(500, 700)
+
                     logger.info(f'Stock news post successful. Going to sleep for ({time_sleep}s).\n'
                                 f'Successful stock news sent: '
                                 f'{successful_msg}')
@@ -58,6 +59,7 @@ async def broadcaster(task: str) -> None:
                 error_msg = f"Critical error with posting stock. Error: {ex}"
                 logger.critical(error_msg)
                 await send_message(user_id=MAINTENANCE_CH_ID, text=error_msg)
+                await asyncio.sleep(600)
 
     elif task == 'reg_news':
         successful_msg = 0
@@ -66,7 +68,8 @@ async def broadcaster(task: str) -> None:
                 news_text = regular_news()  # Getting a link from the register
                 if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
                     successful_msg += 1
-                    time_sleep = random.randint(360, 720)
+                    time_sleep = random.randint(500, 700)
+
                     logger.info(f'News post successful. Going to sleep for ({time_sleep}s).\n'
                                 f'Successful yandex news sent: '
                                 f'{successful_msg}')
@@ -75,6 +78,7 @@ async def broadcaster(task: str) -> None:
                 error_msg = f"Critical error with posting Yandex. Error: {ex}"
                 logger.critical(error_msg)
                 await send_message(user_id=MAINTENANCE_CH_ID, text=error_msg)
+                await asyncio.sleep(600)
 
     else:
         print(f'Wrong task name passed: {task}')

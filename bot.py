@@ -38,7 +38,7 @@ def regular_news() -> str:
 
     """TAKES A LINK FROM THE REGISTER AND EXTRACTS TEXT FROM IT"""
 
-    reason = ""
+    reason = "N/A"
     link = get_link()
 
     markup = requests.get(link).text
@@ -48,17 +48,23 @@ def regular_news() -> str:
     captcha = soup.findAll('div', {"class": "CheckboxCaptcha"})
 
     if captcha:
-        reason = "Captcha Encounter!"
+        reason = "captcha encounter"
 
     try_count = 0
 
     while not article_text:
-
         try_count += 1
         print(f'{try_count} tries to get article header attempted, but not successful. Reason: {reason}. '
-              f'Going to sleep for 6 minutes')
-        time.sleep(360)
+              f'Going to sleep for 10 minutes')
+
+        if not captcha:
+            print(f"Have not detected error type! Wrote soup to file...")
+            with open("error_soup_message.txt", 'w+') as error_file:
+                error_file.write(soup.text)
+
+        time.sleep(600)
         markup = requests.get(link).text
+        soup = BeautifulSoup(markup, 'html.parser')
         article_text = soup.findAll('h1', {'class': 'mg-story__title'})
 
     if article_text:

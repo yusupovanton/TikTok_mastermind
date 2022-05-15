@@ -1,3 +1,5 @@
+import logging
+
 from handlers.config import *
 from handlers.imports import *
 from handlers.filters import IsOwnerFilter
@@ -21,17 +23,15 @@ class CsvFormatter(logging.Formatter):
         return data.strip()
 
 
-logging.basicConfig(filename=f'logs/run_info.csv',
-                    filemode='a',
-                    level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-handler = logging.FileHandler('test.log', 'a', 'utf-8')
+handler = logging.FileHandler('logs/run_info.log', 'w', 'utf-8')
 frmt = logging.Formatter('%(asctime)s %(message)s')
 handler.setFormatter(frmt)
 logger.addHandler(handler)
-ch = logging.StreamHandler()
+ch = logging.StreamHandler(sys.stdout)
 
 
 '''BOT'''

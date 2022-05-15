@@ -34534,3 +34534,430 @@ Successful stock news sent: 2
 Successful yandex news sent: 3
 2022-05-15 13:49:21,862 Stop polling...
 2022-05-15 13:49:21,869 Goodbye!
+2022-05-15 15:29:02,182 
+RUN STARTED ============================
+2022-05-15 15:29:02,189 
+RUN STARTED ============================
+2022-05-15 15:29:02,637 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 15:29:04,352 Updates were skipped successfully.
+2022-05-15 15:29:04,356 Getting a link. The amount of links there are left: 46
+2022-05-15 15:29:04,863 Start polling.
+2022-05-15 15:29:05,279 Target [ID:-1001585932067]: success
+2022-05-15 15:29:05,280 Stock news post successful. Going to sleep for (564s).
+Successful stock news sent: 1
+2022-05-15 15:29:05,302 Target [ID:-1001389315725]: success
+2022-05-15 15:29:05,307 News post successful. Going to sleep for (471s).
+Successful yandex news sent: 1
+2022-05-15 15:29:34,594 Stop polling...
+2022-05-15 15:29:34,595 Goodbye!
+2022-05-15 15:37:18,094 
+RUN STARTED ============================
+2022-05-15 15:37:18,101 
+RUN STARTED ============================
+2022-05-15 15:37:18,334 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 15:37:19,484 Updates were skipped successfully.
+2022-05-15 15:37:19,488 Getting a link. The amount of links there are left: 45
+2022-05-15 15:37:20,011 Start polling.
+2022-05-15 15:37:20,387 Target [ID:-1001585932067]: success
+2022-05-15 15:37:20,387 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:20,450 Target [ID:-1001389315725]: success
+2022-05-15 15:37:20,451 Critical error with posting Yandex. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:20,608 Target [ID:-1001768711000]: success
+2022-05-15 15:37:20,708 Target [ID:-1001768711000]: success
+2022-05-15 15:37:20,709 Getting a link. The amount of links there are left: 44
+2022-05-15 15:37:21,106 Target [ID:-1001585932067]: success
+2022-05-15 15:37:21,106 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:21,256 Target [ID:-1001768711000]: success
+2022-05-15 15:37:21,299 Target [ID:-1001389315725]: success
+2022-05-15 15:37:21,299 Critical error with posting Yandex. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:21,425 Target [ID:-1001585932067]: success
+2022-05-15 15:37:21,425 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:21,490 Target [ID:-1001768711000]: success
+2022-05-15 15:37:21,490 Getting a link. The amount of links there are left: 43
+2022-05-15 15:37:21,961 Target [ID:-1001768711000]: success
+2022-05-15 15:37:22,334 Target [ID:-1001389315725]: success
+2022-05-15 15:37:22,334 Critical error with posting Yandex. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:22,336 Target [ID:-1001585932067]: success
+2022-05-15 15:37:22,336 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:25,610 Target [ID:-1001768711000]: success
+2022-05-15 15:37:25,657 Target [ID:-1001768711000]: success
+2022-05-15 15:37:25,657 Getting a link. The amount of links there are left: 42
+2022-05-15 15:37:26,139 Target [ID:-1001585932067]: success
+2022-05-15 15:37:26,139 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:26,275 Target [ID:-1001768711000]: success
+2022-05-15 15:37:26,369 Target [ID:-1001389315725]: success
+2022-05-15 15:37:26,369 Critical error with posting Yandex. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:26,563 Target [ID:-1001585932067]: success
+2022-05-15 15:37:26,563 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:26,594 Target [ID:-1001768711000]: success
+2022-05-15 15:37:26,595 Getting a link. The amount of links there are left: 41
+2022-05-15 15:37:27,572 Target [ID:-1001768711000]: success
+2022-05-15 15:37:27,845 Target [ID:-1001585932067]: success
+2022-05-15 15:37:27,845 Critical error with posting stock. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:27,860 Target [ID:-1001389315725]: success
+2022-05-15 15:37:27,860 Critical error with posting Yandex. Error: name 'DEBUG' is not defined
+2022-05-15 15:37:29,120 Stop polling...
+2022-05-15 15:37:29,121 Goodbye!
+2022-05-15 15:40:04,291 
+RUN STARTED ============================
+2022-05-15 15:40:04,298 
+RUN STARTED ============================
+2022-05-15 15:40:04,675 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 15:40:05,799 Updates were skipped successfully.
+2022-05-15 15:40:05,802 Getting a link. The amount of links there are left: 40
+2022-05-15 15:40:06,233 Start polling.
+2022-05-15 15:40:06,529 Target [ID:-1001389315725]: success
+2022-05-15 15:40:06,530 News post successful. Going to sleep for (62.3s).
+Successful yandex news sent: 1
+2022-05-15 15:40:06,531 Target [ID:-1001585932067]: success
+2022-05-15 15:40:06,531 Stock news post successful. Going to sleep for (60.7s).
+Successful stock news sent: 1
+2022-05-15 15:41:07,619 Target [ID:-1001585932067]: success
+2022-05-15 15:41:07,620 Stock news post successful. Going to sleep for (62.6s).
+Successful stock news sent: 2
+2022-05-15 15:41:08,834 Getting a link. The amount of links there are left: 39
+2022-05-15 15:42:10,398 Stop polling...
+2022-05-15 15:42:10,405 Goodbye!
+2022-05-15 15:42:10,449 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:91> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 97, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 70, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 60, in regular_news
+    time.sleep(360)
+KeyboardInterrupt
+2022-05-15 15:42:21,178 
+RUN STARTED ============================
+2022-05-15 15:42:21,185 
+RUN STARTED ============================
+2022-05-15 15:42:21,415 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 15:42:22,576 Updates were skipped successfully.
+2022-05-15 15:42:22,578 Getting a link. The amount of links there are left: 38
+2022-05-15 15:42:23,216 Start polling.
+2022-05-15 15:42:23,602 Target [ID:-1001585932067]: success
+2022-05-15 15:42:23,602 Stock news post successful. Going to sleep for (42.6s).
+Successful stock news sent: 1
+2022-05-15 15:42:23,644 Target [ID:-1001389315725]: success
+2022-05-15 15:42:23,645 News post successful. Going to sleep for (55.4s).
+Successful yandex news sent: 1
+2022-05-15 15:43:06,484 Target [ID:-1001585932067]: success
+2022-05-15 15:43:06,485 Stock news post successful. Going to sleep for (61.3s).
+Successful stock news sent: 2
+2022-05-15 15:43:19,047 Getting a link. The amount of links there are left: 37
+2022-05-15 15:43:19,877 Target [ID:-1001389315725]: success
+2022-05-15 15:43:19,878 News post successful. Going to sleep for (48.1s).
+Successful yandex news sent: 2
+2022-05-15 15:44:07,981 Getting a link. The amount of links there are left: 36
+2022-05-15 15:52:50,833 Stop polling...
+2022-05-15 15:52:50,836 Critical error with posting stock. Error: 
+2022-05-15 15:52:50,836 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-15 15:52:50,874 Goodbye!
+2022-05-15 15:52:50,918 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:93> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 99, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 71, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 60, in regular_news
+    time.sleep(360)
+KeyboardInterrupt
+2022-05-15 16:01:19,760 
+RUN STARTED ============================
+2022-05-15 16:01:19,767 
+RUN STARTED ============================
+2022-05-15 16:01:19,952 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 16:01:21,085 Updates were skipped successfully.
+2022-05-15 16:01:21,087 Getting a link. The amount of links there are left: 35
+2022-05-15 16:01:21,901 Start polling.
+2022-05-15 16:01:22,241 Target [ID:-1001585932067]: success
+2022-05-15 16:01:22,241 Stock news post successful. Going to sleep for (40.2s).
+Successful stock news sent: 1
+2022-05-15 16:01:22,289 Target [ID:-1001389315725]: success
+2022-05-15 16:01:22,289 News post successful. Going to sleep for (63.7s).
+Successful yandex news sent: 1
+2022-05-15 16:02:03,520 Target [ID:-1001585932067]: success
+2022-05-15 16:02:03,520 Stock news post successful. Going to sleep for (55.1s).
+Successful stock news sent: 2
+2022-05-15 16:02:25,992 Getting a link. The amount of links there are left: 34
+2022-05-15 16:02:28,764 Target [ID:-1001389315725]: success
+2022-05-15 16:02:28,765 News post successful. Going to sleep for (62.9s).
+Successful yandex news sent: 2
+2022-05-15 16:02:59,006 Target [ID:-1001585932067]: success
+2022-05-15 16:02:59,006 Stock news post successful. Going to sleep for (50.1s).
+Successful stock news sent: 3
+2022-05-15 16:03:31,668 Getting a link. The amount of links there are left: 33
+2022-05-15 16:03:32,685 Target [ID:-1001389315725]: success
+2022-05-15 16:03:32,685 News post successful. Going to sleep for (69.7s).
+Successful yandex news sent: 3
+2022-05-15 16:03:49,399 Target [ID:-1001585932067]: success
+2022-05-15 16:03:49,399 Stock news post successful. Going to sleep for (66.0s).
+Successful stock news sent: 4
+2022-05-15 16:04:42,388 Getting a link. The amount of links there are left: 32
+2022-05-15 16:07:29,035 Stop polling...
+2022-05-15 16:07:29,039 Goodbye!
+2022-05-15 16:07:29,118 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:93> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 99, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 71, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 65, in regular_news
+    time.sleep(360)
+KeyboardInterrupt
+2022-05-15 16:07:36,723 
+RUN STARTED ============================
+2022-05-15 16:07:36,730 
+RUN STARTED ============================
+2022-05-15 16:07:36,923 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 16:07:38,051 Updates were skipped successfully.
+2022-05-15 16:07:38,055 Getting a link. The amount of links there are left: 31
+2022-05-15 16:07:44,003 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:93> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 99, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 71, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 65, in regular_news
+    time.sleep(360)
+KeyboardInterrupt
+2022-05-15 16:08:17,143 
+RUN STARTED ============================
+2022-05-15 16:08:17,150 
+RUN STARTED ============================
+2022-05-15 16:08:17,345 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 16:08:18,483 Updates were skipped successfully.
+2022-05-15 16:08:18,486 Getting a link. The amount of links there are left: 30
+2022-05-15 16:08:21,979 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:93> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 99, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 71, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 65, in regular_news
+    time.sleep(360)
+KeyboardInterrupt
+2022-05-15 16:08:41,536 
+RUN STARTED ============================
+2022-05-15 16:08:41,548 
+RUN STARTED ============================
+2022-05-15 16:08:41,812 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 16:08:43,053 Updates were skipped successfully.
+2022-05-15 16:08:43,059 Getting a link. The amount of links there are left: 29
+2022-05-15 16:08:43,813 Start polling.
+2022-05-15 16:08:44,080 Target [ID:-1001585932067]: success
+2022-05-15 16:08:44,081 Stock news post successful. Going to sleep for (108.6s).
+Successful stock news sent: 1
+2022-05-15 16:08:44,134 Target [ID:-1001389315725]: success
+2022-05-15 16:08:44,134 News post successful. Going to sleep for (91.6s).
+Successful yandex news sent: 1
+2022-05-15 16:10:15,738 Getting a link. The amount of links there are left: 28
+2022-05-15 16:10:17,161 Target [ID:-1001389315725]: success
+2022-05-15 16:10:17,161 News post successful. Going to sleep for (106.0s).
+Successful yandex news sent: 2
+2022-05-15 16:10:33,024 Target [ID:-1001585932067]: success
+2022-05-15 16:10:33,024 Stock news post successful. Going to sleep for (116.6s).
+Successful stock news sent: 2
+2022-05-15 16:12:03,166 Getting a link. The amount of links there are left: 27
+2022-05-15 16:12:05,219 Target [ID:-1001389315725]: success
+2022-05-15 16:12:05,221 News post successful. Going to sleep for (111.8s).
+Successful yandex news sent: 3
+2022-05-15 16:12:29,987 Target [ID:-1001585932067]: success
+2022-05-15 16:12:29,987 Stock news post successful. Going to sleep for (89.2s).
+Successful stock news sent: 3
+2022-05-15 16:13:57,026 Getting a link. The amount of links there are left: 26
+2022-05-15 16:19:58,519 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-15 16:19:58,915 Target [ID:-1001389315725]: success
+2022-05-15 16:19:58,916 News post successful. Going to sleep for (108.0s).
+Successful yandex news sent: 4
+2022-05-15 16:19:58,949 Target [ID:-1001585932067]: success
+2022-05-15 16:19:58,949 Stock news post successful. Going to sleep for (143.6s).
+Successful stock news sent: 4
+2022-05-15 16:21:46,921 Getting a link. The amount of links there are left: 25
+2022-05-15 16:27:38,648 Stop polling...
+2022-05-15 16:27:38,652 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-15 16:27:38,652 Goodbye!
+2022-05-15 16:27:38,746 Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:93> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 99, in background_on_start
+    await broadcaster(**kwargs)
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 71, in broadcaster
+    news_text = regular_news()  # Getting a link from the register
+  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 65, in regular_news
+    time.sleep(600)
+KeyboardInterrupt
+2022-05-15 16:27:43,961 
+RUN STARTED ============================
+2022-05-15 16:27:43,967 
+RUN STARTED ============================
+2022-05-15 16:27:44,142 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 16:27:45,256 Updates were skipped successfully.
+2022-05-15 16:27:45,260 Getting a link. The amount of links there are left: 24
+2022-05-15 16:27:45,779 Start polling.
+2022-05-15 16:27:46,275 Target [ID:-1001389315725]: success
+2022-05-15 16:27:46,275 News post successful. Going to sleep for (85.0s).
+Successful yandex news sent: 1
+2022-05-15 16:27:46,276 Target [ID:-1001585932067]: success
+2022-05-15 16:27:46,276 Stock news post successful. Going to sleep for (114.8s).
+Successful stock news sent: 1
+2022-05-15 16:29:11,279 Getting a link. The amount of links there are left: 23
+2022-05-15 16:29:12,191 Target [ID:-1001389315725]: success
+2022-05-15 16:29:12,191 News post successful. Going to sleep for (138.2s).
+Successful yandex news sent: 2
+2022-05-15 16:29:41,357 Target [ID:-1001585932067]: success
+2022-05-15 16:29:41,357 Stock news post successful. Going to sleep for (117.2s).
+Successful stock news sent: 2
+2022-05-15 16:31:30,396 Getting a link. The amount of links there are left: 22
+2022-05-15 16:31:31,090 Target [ID:-1001389315725]: success
+2022-05-15 16:31:31,090 News post successful. Going to sleep for (118.4s).
+Successful yandex news sent: 3
+2022-05-15 16:31:38,919 Target [ID:-1001585932067]: success
+2022-05-15 16:31:38,919 Stock news post successful. Going to sleep for (105.4s).
+Successful stock news sent: 3
+2022-05-15 16:33:24,644 Target [ID:-1001585932067]: success
+2022-05-15 16:33:24,644 Stock news post successful. Going to sleep for (135.8s).
+Successful stock news sent: 4
+2022-05-15 16:33:29,496 Getting a link. The amount of links there are left: 21
+2022-05-15 16:33:30,165 Target [ID:-1001389315725]: success
+2022-05-15 16:33:30,166 News post successful. Going to sleep for (113.6s).
+Successful yandex news sent: 4
+2022-05-15 16:35:23,771 Getting a link. The amount of links there are left: 20
+2022-05-15 16:45:25,088 Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1138, in __aenter__
+    self._resp = await self._coro
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client.py", line 559, in _request
+    await resp.start(conn)
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 893, in start
+    with self._timer:
+  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 721, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-05-15 16:45:25,425 Target [ID:-1001585932067]: success
+2022-05-15 16:45:25,426 Stock news post successful. Going to sleep for (129.2s).
+Successful stock news sent: 5
+2022-05-15 16:45:25,484 Target [ID:-1001389315725]: success
+2022-05-15 16:45:25,484 News post successful. Going to sleep for (106.2s).
+Successful yandex news sent: 5
+2022-05-15 16:46:57,111 Stop polling...
+2022-05-15 16:46:57,112 Goodbye!
