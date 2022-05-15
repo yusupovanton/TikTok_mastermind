@@ -1,8 +1,8 @@
-import random
-
 from handlers.dispatcher import *
 from handlers.config import *
 from bot import stock_news, regular_news
+from news import get_yandex_news_and_write_them_to_file
+from stocks import get_general_news
 bot = Bot(token=API_TOKEN, parse_mode=types.ParseMode.HTML)
 
 
@@ -46,7 +46,7 @@ async def broadcaster(task: str) -> None:
         while True:
             try:
 
-                news_text = stock_news()  # Getting a link from Finnhub
+                news_text = await stock_news()  # Getting a link from Finnhub
                 if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
                     successful_msg += 1
                     time_sleep = random.randint(500, 700)
@@ -65,7 +65,7 @@ async def broadcaster(task: str) -> None:
         successful_msg = 0
         while True:
             try:
-                news_text = regular_news()  # Getting a link from the register
+                news_text = await regular_news()  # Getting a link from the register
                 if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
                     successful_msg += 1
                     time_sleep = random.randint(500, 700)
@@ -109,10 +109,12 @@ async def background_task_creator(message: types.Message) -> None:
 async def on_bot_start_up(dispatcher: Dispatcher) -> None:
     """List of actions which should be done before bot start"""
 
-    task1 = asyncio.create_task(background_on_start(task="stocks_news"))
-    task2 = asyncio.create_task(background_on_start(task="reg_news"))
+    task1 = asyncio.create_task(get_yandex_news_and_write_them_to_file())
+    task2 = asyncio.create_task(get_general_news())
+    task3 = asyncio.create_task(background_on_start(task="stocks_news"))
+    task4 = asyncio.create_task(background_on_start(task="reg_news"))
 
-    logger.debug(f"{task1}, {task2}")
+    logger.debug(f"{task1}, {task2}, {task3}, {task4}")
 
 
 def create_bot_factory(**kwargs) -> None:

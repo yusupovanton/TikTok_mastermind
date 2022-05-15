@@ -1,3 +1,5 @@
+import asyncio
+
 from handlers.dispatcher import *
 
 '''HTML Scraping (news)'''
@@ -11,25 +13,33 @@ class ScraperYandex:
         self.available_themes = []
         self.available_themeslinks = []
         self.soup = BeautifulSoup(self.markup, 'html.parser')
-        self.captcha_encounter = ''
+        self.reason = ''
 
-    def most_popular_news(self) -> set:
+    async def most_popular_news(self) -> set:
+        """ACCESSES YANDEX AND SCRAPES FOR NEWS. RETURNS A SET OF LINKS FOR THE NEWS"""
+
+        logger.info(f"Accessing Yandex...")
         captcha = self.soup.findAll('div', {"class": "CheckboxCaptcha"})
+        request_try = 0
 
-        if captcha:
-            self.captcha_encounter = 'Captcha encountered'
-            print(self.captcha_encounter)
+        while captcha:
+            request_try += 1
+            self.reason = f'Captcha encountered at Yandex for the {request_try} time'
+            logger.warning(self.reason)
+            await asyncio.sleep(600)
+            self.markup = requests.get(self.url).text
+            self.soup = BeautifulSoup(self.markup, 'html.parser')
+            captcha = self.soup.findAll('div', {"class": "CheckboxCaptcha"})
 
-        self.markup = requests.get(self.url).text
-        if self.markup:
-            links = self.soup.findAll('a', {"class": "mg-card__link"})
-            if links:
-                for item in links:
-                    link = str(item).split('href="')[1].split('" rel')[0]
-                    self.saved_links.add(link)
+        links = self.soup.findAll('a', {"class": "mg-card__link"})
 
-            else:
-                print(f'No links found. (Links are: {links})')
+        if links:
+            logger.info(f"Success! Found {len(links)} links at Yandex!")
+            for item in links:
+                link = str(item).split('href="')[1].split('" rel')[0]
+                self.saved_links.add(link)
+        else:
+            print(f'No links found. (Links are: {links})')
 
         return self.saved_links
 
@@ -82,14 +92,14 @@ def get_tags():
         print(ex)
 
 
-def get_news(get_categories=False):
+async def get_news(get_categories=False):
     result_set = set()
 
     if get_categories:
         categories = ScraperYandex().get_categories()[0]
 
     try:
-        news_set = ScraperYandex().most_popular_news()
+        news_set = await ScraperYandex().most_popular_news()
         for link in news_set:
             link_trim = str(link).split('href="')[1].split('" rel')[0]
             result_set.add(link_trim)
@@ -119,11 +129,10 @@ def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='
     """WRITES THE GIVEN LINKS TO A CORRESPONDING FILE"""
 
     logger.info('Writing links to file...')
-
     if write_only_sorted:
         links_set = sort_news(links_set)
 
-    with open(file_name1, 'w') as file:
+    with open(file_name1, 'a') as file:
         for item in links_set:
             item = str(item)
             file.write(item + '\n')
@@ -132,17 +141,16 @@ def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='
         file.write(str(links_set))
 
 
-def get_link() -> str:
+async def get_link() -> str:
 
     links_list = open('news_links.txt').readlines()
     links_left = len(links_list)
     link_to_return = ""
 
-    logger.info(f"Getting a link. The amount of links there are left: {links_left}")
+    logger.info(f"Getting a Yandex link from the file. The amount of Y-links there are left: {links_left}")
 
     if links_list:
         links_list = open('news_links.txt', 'r').readlines()
-
         link_to_return = links_list[0]
         links_list.pop(0)
 
@@ -153,48 +161,28 @@ def get_link() -> str:
 
     else:
         logger.info('Zero links left in the file! Need to go set some news...')
-
-        links_set = set()
-        tries_count = 0
-        time_increase = 0
-
-        while not links_set:
-            tries_count += 1
-            time_increase += 5
-            logger.warning(f'Trying to get news. This is my {tries_count} try...')
-
-            links_set = ScraperYandex().most_popular_news()
-
-            if not links_set:  # IF DIDN'T FIND LINKS - SEARCH AGAIN
-                time_span = 2 + time_increase
-                logger.warning(f'Try not successful :('
-                               f'Going to sleep for {time_span} minutes')
-                time.sleep(time_span * 60)
-                links_set = ScraperYandex().most_popular_news()
-
-            elif tries_count > 5 and not links_set:  # BREAK CONDITION
-                logger.error(f"Getting news run unsuccessfully")
-                link_to_return = ""
-                break
-
-            elif links_set:  # IF FOUND LINKS
-                write_news_to_file(links_set)
-                logger.info(f"Wrote {len(links_set)} links to file. Will try to get a link again.")
-                get_link()
+        await asyncio.sleep(600)
 
     return link_to_return
 
 
-def main():
+async def get_yandex_news_and_write_them_to_file():
+    """Gets Yandex news and writes them to a dedicated file"""
 
-    li = ScraperYandex().most_popular_news()
-    if li:
-        write_news_to_file(li, write_only_sorted=True)
-    else:
-        time.sleep(30)
-        main()
+    logger.info("Entered coroutine for searching and writing Y-news.")
+
+    while True:
+
+        li = await ScraperYandex().most_popular_news()
+        if li:
+            write_news_to_file(li, write_only_sorted=True)
+            logger.info(f"Successfully wrote the links to the file!")
+            await asyncio.sleep(600)
+
+        else:
+            logger.error(f"Error in getting and writing Yandex news!")
 
 
 if __name__ == '__main__':
-    main()
+    get_yandex_news_and_write_them_to_file()
 

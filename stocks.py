@@ -1,3 +1,5 @@
+import asyncio
+
 from handlers.dispatcher import *
 
 EXCHANGE = 'ME'
@@ -59,46 +61,43 @@ def get_available_stocks(SE):
     return df_file_name
 
 
-def get_general_news():
-    news_list = []
+async def get_general_news():
+    """GETS NEWS FROM FINNHUB IO"""
 
-    logger.info(f"Getting stock news...")
-    with open('news/last_id.txt', 'r') as file:
-        id_ = file.read()
+    while True:
+        news_list = []
 
-    news = finnhub_client.general_news('general', min_id=id_)
+        logger.info(f"Getting stock news...")
+        with open('news/last_id.txt', 'r') as file:
+            id_ = file.read()
 
-    for item in news:
+        news = finnhub_client.general_news('general', min_id=id_)
 
-        hashtag = item['category']
-        text = item['headline']
-        img_url = item['image']
-        url = item['url']
+        for item in news:
 
-        id_ = item['id']
+            hashtag = item['category']
+            text = item['headline']
+            img_url = item['image']
+            url = item['url']
+            id_ = item['id']
+            dict_ = {'id': id_,
+                     'hashtag': hashtag,
+                     'text': text,
+                     'img_url': img_url,
+                     'url': url}
 
-        dict_ = {
-                   'id': id_,
-                   'hashtag': hashtag,
+            news_list.append(dict_)
 
-                   'text': text,
-                   'img_url': img_url,
-                   'url': url
+        last_id = id_
 
-        }
+        with open('news/last_id.txt', 'w') as file:
+            file.write(f'{last_id} \n')
 
-        news_list.append(dict_)
+        with open('news/news_register.txt', 'w') as file:
+            for item in news_list:
+                file.write(f"{str(item)} \n")
 
-    last_id = id_
-
-    with open('news/last_id.txt', 'w') as file:
-        file.write(f'{last_id} \n')
-
-    with open('news/news_register.txt', 'w') as file:
-        for item in news_list:
-            file.write(f"{str(item)} \n")
-
-    return news_list
+        await asyncio.sleep(600)
 
 
 def get_company_news(ticker, fromdate, todate):

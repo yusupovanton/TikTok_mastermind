@@ -1,20 +1,25 @@
-2022-05-15 16:51:56,957 Task exception was never retrieved
-future: <Task finished name='Task-7' coro=<background_on_start() done, defined at /Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py:87> exception=KeyboardInterrupt()>
-Traceback (most recent call last):
-  File "/Users/yustas/Library/Caches/pypoetry/virtualenvs/repl-python3-tiktokmastermind-FiszdxE2-py3.10/lib/python3.10/site-packages/aiogram/utils/executor.py", line 320, in start_polling
-    loop.run_until_complete(self._startup_polling())
-  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
-    self.run_forever()
-  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
-    self._run_once()
-  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
-    handle._run()
-  File "/usr/local/Cellar/python@3.10/3.10.1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
-    self._context.run(self._callback, *self._args)
-  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 93, in background_on_start
-    await broadcaster(**kwargs)
-  File "/Users/yustas/PycharmProjects/TikTok_mastermind/handlers/personal_actions.py", line 68, in broadcaster
-    news_text = regular_news()  # Getting a link from the register
-  File "/Users/yustas/PycharmProjects/TikTok_mastermind/bot.py", line 65, in regular_news
-    time.sleep(600)
-KeyboardInterrupt
+2022-05-15 23:04:39,485 
+RUN STARTED ============================
+2022-05-15 23:04:39,491 
+RUN STARTED ============================
+2022-05-15 23:04:40,001 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-15 23:04:41,267 Updates were skipped successfully.
+2022-05-15 23:04:41,267 Entered coroutine for searching and writing Y-news.
+2022-05-15 23:04:41,890 Accessing Yandex...
+2022-05-15 23:04:41,902 Success! Found 65 links at Yandex!
+2022-05-15 23:04:41,904 Writing links to file...
+2022-05-15 23:04:41,904 Sorting links...
+2022-05-15 23:04:41,905 Successfully wrote the links to the file!
+2022-05-15 23:04:41,905 Getting stock news...
+2022-05-15 23:04:42,430 Preparing a message for the stock news channel...
+2022-05-15 23:04:42,434 Getting a Yandex link from the file. The amount of Y-links there are left: 65
+2022-05-15 23:04:42,950 Have successfully found the article for the link.
+2022-05-15 23:04:42,952 Start polling.
+2022-05-15 23:04:43,186 Target [ID:-1001585932067]: success
+2022-05-15 23:04:43,186 Stock news post successful. Going to sleep for (558s).
+Successful stock news sent: 1
+2022-05-15 23:04:43,208 Target [ID:-1001389315725]: success
+2022-05-15 23:04:43,208 News post successful. Going to sleep for (653s).
+Successful yandex news sent: 1
+2022-05-15 23:06:04,547 Stop polling...
+2022-05-15 23:06:04,547 Goodbye!

@@ -5,49 +5,49 @@ from handlers.personal_actions import *
 logger.info(f"\nRUN STARTED ============================")
 
 
-def stock_news():
-    """"""
-    with open('news/news_register.txt', 'r') as file:
+async def stock_news() -> str:
+    """MAIN FUNCTION FOR GETTING THE STOCK NEWS TEXT TO RETURN AS A MESSAGE. RETURNS A STRING"""
 
+    logger.info(f"Preparing a message for the stock news channel...")
+
+    with open('news/news_register.txt', 'r') as file:
         news_list = file.readlines()
         if len(news_list) <= 2:
-            get_general_news()
+            await get_general_news()
 
     if news_list:
         item = ast.literal_eval(news_list[0])
-
         hashtag = item['hashtag']
         text = item['text']
         img_url = item['img_url']
         url = item['url']
         first_word = text.split(' ', 1)[0]
         text_after = text.split(' ', 1)[1]
-
         news_list.pop(0)
-
         message = f"<a href='{url}'>{first_word}</a> {text_after} \n#{hashtag}"
 
         with open('news/news_register.txt', 'w') as file:
             for item in news_list:
                 file.write(f"{str(item)}")
 
-        return message
+    else:
+        logger.error(f"Error: There are no links in the file for stock news! Go get some!")
+        message = ""
+
+    return message
 
 
-def regular_news() -> str:
+async def regular_news() -> str:
 
     """TAKES A LINK FROM THE REGISTER AND EXTRACTS TEXT FROM IT"""
 
     reason = "N/A"
-    link = get_link()
-
+    link = await get_link()
     markup = requests.get(link).text
     soup = BeautifulSoup(markup, 'html.parser')
-
     article_text = soup.findAll('h1', {'class': 'mg-story__title'})
     captcha = soup.findAll('div', {"class": "CheckboxCaptcha"})
     story_not_found = soup.findAll('div', {"class": "mg-story-not-found mg-grid__item"})
-
     try_count = 0
 
     while not article_text:
@@ -55,10 +55,12 @@ def regular_news() -> str:
 
         if captcha:
             reason = "captcha encounter"
+
         elif story_not_found:
             reason = "story not found"
             logger.info(f"Will going to use a new link")
             link = get_link()  # Getting a new link since this does not work
+
         elif not captcha and not story_not_found:
             logger.error(f"Have not detected error type! Wrote soup to file...\nThe link is {link}")
             with open("error_soup_message.txt", 'w+') as error_file:
@@ -66,7 +68,7 @@ def regular_news() -> str:
 
         logger.warning(f'{try_count} tries to get article header attempted, but not successful. Reason: {reason}. '
                        f'Going to sleep for 10 minutes')
-        time.sleep(600)
+        await asyncio.sleep(600)
 
         logger.info(f"Attempting to reach the link again...")
         markup = requests.get(link).text
