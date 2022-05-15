@@ -1,4 +1,4 @@
-from handlers.imports import *
+from handlers.dispatcher import *
 
 EXCHANGE = 'ME'
 if not os.path.exists("images"):
@@ -28,12 +28,10 @@ def symbol_lookup(user_input):
 
     if stocks:
         col = 0
+
         for stock in stocks:
             description = stock['description']
-
             symbol = stock['symbol'].split('.')[0]
-
-
             df.loc[col] = [description, symbol]
             col += 1
 
@@ -64,6 +62,7 @@ def get_available_stocks(SE):
 def get_general_news():
     news_list = []
 
+    logger.info(f"Getting stock news...")
     with open('news/last_id.txt', 'r') as file:
         id_ = file.read()
 
@@ -104,7 +103,6 @@ def get_general_news():
 
 def get_company_news(ticker, fromdate, todate):
 
-
     news = finnhub_client.company_news(ticker, _from=fromdate, to=todate)
     for item in news:
         headline = item['headline']
@@ -127,9 +125,6 @@ def get_basic_financials(ticker):
 
 def main(user_input=None):
     pass
-    # get_available_stocks(EXCHANGE)
-    # print(symbol_lookup('FXCN'))
-    # print(get_basic_financials('GAZP.ME'))
     print(get_general_news())
 
 

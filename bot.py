@@ -1,10 +1,8 @@
-import urllib.request
-
 from news import get_link
-from stocks import *
-
+from stocks import get_general_news
 from handlers.personal_actions import *
-import ast
+
+logger.info(f"\nRUN STARTED ============================")
 
 
 def stock_news():

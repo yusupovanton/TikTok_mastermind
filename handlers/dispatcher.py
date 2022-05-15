@@ -38,7 +38,6 @@ ch = logging.StreamHandler()
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot=bot)
-
 dp.filters_factory.bind(IsOwnerFilter)
 
 

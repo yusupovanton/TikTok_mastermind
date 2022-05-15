@@ -87,7 +87,6 @@ def get_news(get_categories=False):
 
     if get_categories:
         categories = ScraperYandex().get_categories()[0]
-        print(f'Категории: {categories}')
 
     try:
         news_set = ScraperYandex().most_popular_news()
@@ -96,7 +95,7 @@ def get_news(get_categories=False):
             result_set.add(link_trim)
 
     except Exception as ex:
-        print(ex)
+        logger.error(ex)
 
 
 def sort_news(links_set) -> set:
@@ -119,7 +118,7 @@ def sort_news(links_set) -> set:
 def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='links_register.txt', write_only_sorted=True):
     """WRITES THE GIVEN LINKS TO A CORRESPONDING FILE"""
 
-    print('Writing links to file...')
+    logger.info('Writing links to file...')
 
     if write_only_sorted:
         links_set = sort_news(links_set)
@@ -139,7 +138,7 @@ def get_link() -> str:
     links_left = len(links_list)
     link_to_return = ""
 
-    print(f"Getting a link. The amount of links there are left: {links_left}")
+    logger.info(f"Getting a link. The amount of links there are left: {links_left}")
 
     if links_list:
         links_list = open('news_links.txt', 'r').readlines()
@@ -153,7 +152,7 @@ def get_link() -> str:
                 file.write(item)
 
     else:
-        print('Zero links left in the file! Need to go set some news...')
+        logger.info('Zero links left in the file! Need to go set some news...')
 
         links_set = set()
         tries_count = 0
@@ -162,7 +161,7 @@ def get_link() -> str:
         while not links_set:
             tries_count += 1
             time_increase += 5
-            print(f'Trying to get news. This is my {tries_count} try...')
+            logger.warning(f'Trying to get news. This is my {tries_count} try...')
 
             links_set = ScraperYandex().most_popular_news()
 

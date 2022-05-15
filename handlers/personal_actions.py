@@ -36,37 +36,54 @@ async def send_message(user_id: int, text: str, disable_notification: bool = Fal
 
 async def broadcaster(task: str) -> None:
 
+    """TAKES ONE PARAMETER: TASK NAME AND USES IT TO SEND MESSAGE TO A CORRESPONDING CHAT"""
+
     if task == 'tiktok_video':
         pass
 
     elif task == 'stocks_news':
         successful_msg = 0
         while True:
-            news_text = stock_news()  # Getting a link from Finnhub
-            if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
-                successful_msg += 1
-                time_sleep = random.randint(360, 720)
-                logger.info(f'Stock news post successful. Going to sleep for ({time_sleep}s).\nSuccessful stock news sent: '
-                            f'{successful_msg}')
-                await asyncio.sleep(time_sleep)
+            try:
+
+                news_text = stock_news()  # Getting a link from Finnhub
+                if await send_message(user_id=STOCKS_NEWS_CHANNEL_ID, text=news_text):
+                    successful_msg += 1
+                    time_sleep = random.randint(360, 720)
+                    logger.info(f'Stock news post successful. Going to sleep for ({time_sleep}s).\n'
+                                f'Successful stock news sent: '
+                                f'{successful_msg}')
+                    await asyncio.sleep(time_sleep)
+            except Exception as ex:
+                error_msg = f"Critical error with posting stock. Error: {ex}"
+                logger.critical(error_msg)
+                await send_message(user_id=MAINTENANCE_CH_ID, text=error_msg)
 
     elif task == 'reg_news':
         successful_msg = 0
         while True:
-            news_text = regular_news()  # Getting a link from the register
-            if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
-                successful_msg += 1
-                time_sleep = random.randint(360, 720)
-                logger.info(f'News post successful. Going to sleep for ({time_sleep}s).\nSuccessful yandex news sent: '
-                            f'{successful_msg}')
-                await asyncio.sleep(time_sleep)
+            try:
+                news_text = regular_news()  # Getting a link from the register
+                if await send_message(user_id=REG_NEWS_CHANNEL_ID, text=news_text):
+                    successful_msg += 1
+                    time_sleep = random.randint(360, 720)
+                    logger.info(f'News post successful. Going to sleep for ({time_sleep}s).\n'
+                                f'Successful yandex news sent: '
+                                f'{successful_msg}')
+                    await asyncio.sleep(time_sleep)
+            except Exception as ex:
+                error_msg = f"Critical error with posting Yandex. Error: {ex}"
+                logger.critical(error_msg)
+                await send_message(user_id=MAINTENANCE_CH_ID, text=error_msg)
 
     else:
         print(f'Wrong task name passed: {task}')
 
 
 async def background_on_start(**kwargs) -> None:
+
     """background task which is created when bot starts"""
+
     while True:
 
         await broadcaster(**kwargs)
