@@ -46,39 +46,47 @@ def regular_news() -> str:
 
     article_text = soup.findAll('h1', {'class': 'mg-story__title'})
     captcha = soup.findAll('div', {"class": "CheckboxCaptcha"})
-
-    if captcha:
-        reason = "captcha encounter"
+    story_not_found = soup.findAll('div', {"class": "mg-story-not-found mg-grid__item"})
 
     try_count = 0
 
     while not article_text:
         try_count += 1
-        print(f'{try_count} tries to get article header attempted, but not successful. Reason: {reason}. '
-              f'Going to sleep for 10 minutes')
 
-        if not captcha:
-            print(f"Have not detected error type! Wrote soup to file...")
+        if captcha:
+            reason = "captcha encounter"
+        elif story_not_found:
+            reason = "story not found"
+            logger.info(f"Will going to use a new link")
+            link = get_link()  # Getting a new link since this does not work
+        elif not captcha and not story_not_found:
+            logger.error(f"Have not detected error type! Wrote soup to file...\nThe link is {link}")
             with open("error_soup_message.txt", 'w+') as error_file:
                 error_file.write(soup.text)
 
+        logger.warning(f'{try_count} tries to get article header attempted, but not successful. Reason: {reason}. '
+                       f'Going to sleep for 10 minutes')
         time.sleep(600)
+
+        logger.info(f"Attempting to reach the link again...")
         markup = requests.get(link).text
         soup = BeautifulSoup(markup, 'html.parser')
         article_text = soup.findAll('h1', {'class': 'mg-story__title'})
 
-    if article_text:
+        if try_count >= 3:
+            logger.error(f"Error in getting the article text for the link {link}")
+            return ""
 
-        # HANDLING THE HTML FORMAT
-        tags = str(article_text[0])
-        tags = tags.split('target="_blank">')[1]
-        new_tags = tags.split('</')[0]
-        word = new_tags.split(' ')[0]
+    logger.info(f"Have successfully found the article for the link.")
 
-        after_word = new_tags.split(' ', 1)[1:]
-        text = f"<a href='{link}'>{word}</a> {after_word[0]}"
-    else:
-        text = ""
+    # HANDLING THE HTML FORMAT
+    tags = str(article_text[0])
+    tags = tags.split('target="_blank">')[1]
+    new_tags = tags.split('</')[0]
+    word = new_tags.split(' ')[0]
+
+    after_word = new_tags.split(' ', 1)[1:]
+    text = f"<a href='{link}'>{word}</a> {after_word[0]}"
 
     return text
 
