@@ -108,24 +108,29 @@ async def get_news(get_categories=False):
         logger.error(ex)
 
 
-def sort_news(links_set) -> set:
+def sort_news(links_set: set) -> set:
 
     """SORTS THE GIVEN SET OF LINKS BASED ON THE REGISTER OF LINKS THAT THE BOT HAS ALREADY SENT"""
     logger.info('Sorting links...')
 
-    if links_set:
-        with open('links_register.txt', 'r') as file:
+    result_set = set()
 
-            links_reg = ast.literal_eval(file.read())
-            result_set = links_set.difference(links_reg)
-    else:
-        logger.error(f"Empty set was given to sort. That is not going to work!")
-        result_set = set()
+    with open('news/yandex_links_register.txt', 'r') as file:
+        links_reg_set = ast.literal_eval(file.read())
+
+        for link in links_set:
+            persistent_id = link.split("persistent_id=")[1].split("&amp")[0]
+            if persistent_id not in links_reg_set:
+                result_set.add(link)
+            links_reg_set.add(persistent_id)
+
+    with open('news/yandex_links_register.txt', 'w') as file:
+        file.write(str(links_reg_set))
 
     return result_set
 
 
-def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='links_register.txt', write_only_sorted=True):
+def write_news_to_file(links_set: set, file_name1='news_links.txt', file_name2='yandex_links_register.txt', write_only_sorted=True):
     """WRITES THE GIVEN LINKS TO A CORRESPONDING FILE"""
 
     logger.info('Writing links to file...')

@@ -1,23 +1,23 @@
-2022-05-15 21:07:12,105 
+2022-05-16 00:02:29,390 
 RUN STARTED ============================
-2022-05-15 21:07:12,124 
+2022-05-16 00:02:29,397 
 RUN STARTED ============================
-2022-05-15 21:07:12,451 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
-2022-05-15 21:07:13,669 Updates were skipped successfully.
-2022-05-15 21:07:13,670 Entered coroutine for searching and writing Y-news.
-2022-05-15 21:07:14,939 Accessing Yandex...
-2022-05-15 21:07:14,990 Success! Found 65 links at Yandex!
-2022-05-15 21:07:15,002 Writing links to file...
-2022-05-15 21:07:15,002 Sorting links...
-2022-05-15 21:07:15,004 Successfully wrote the links to the file!
-2022-05-15 21:07:15,004 Getting stock news...
-2022-05-15 21:07:15,136 Preparing a message for the stock news channel...
-2022-05-15 21:07:15,138 Getting a Yandex link from the file. The amount of Y-links there are left: 129
-2022-05-15 21:07:16,074 Have successfully found the article for the link.
-2022-05-15 21:07:16,077 Start polling.
-2022-05-15 21:07:16,467 Target [ID:-1001585932067]: success
-2022-05-15 21:07:16,468 Stock news post successful. Going to sleep for (556s).
-Successful stock news sent: 1
-2022-05-15 21:07:16,474 Target [ID:-1001389315725]: success
-2022-05-15 21:07:16,475 News post successful. Going to sleep for (623s).
+2022-05-16 00:02:29,580 Bot: tiktok_mastermind [@tiktok_mastermind_bot]
+2022-05-16 00:02:30,770 Updates were skipped successfully.
+2022-05-16 00:02:30,770 Entered coroutine for searching and writing Y-news.
+2022-05-16 00:02:38,888 Accessing Yandex...
+2022-05-16 00:02:38,900 Success! Found 65 links at Yandex!
+2022-05-16 00:02:38,902 Writing links to file...
+2022-05-16 00:02:38,902 Sorting links...
+2022-05-16 00:02:38,903 Successfully wrote the links to the file!
+2022-05-16 00:02:38,903 Getting stock news...
+2022-05-16 00:02:45,921 Preparing a message for the stock news channel...
+2022-05-16 00:02:45,924 Getting a Yandex link from the file. The amount of Y-links there are left: 17
+2022-05-16 00:02:54,630 Have successfully found the article for the link.
+2022-05-16 00:02:54,632 Start polling.
+2022-05-16 00:02:54,909 Target [ID:-1001389315725]: success
+2022-05-16 00:02:54,909 News post successful. Going to sleep for (699s).
 Successful yandex news sent: 1
+2022-05-16 00:02:54,919 Target [ID:-1001585932067]: success
+2022-05-16 00:02:54,919 Stock news post successful. Going to sleep for (640s).
+Successful stock news sent: 1
